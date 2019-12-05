@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen_lov_top" translatesAutoresizingMaskIntoConstraints="NO" id="srT-f7-8gl">
+                                <rect key="frame" x="0.0" y="20" width="375" height="249"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="srT-f7-8gl" secondAttribute="height" multiplier="125:83" id="ejm-AR-Ucc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen_lov_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="fGs-Vx-6RU">
+                                <rect key="frame" x="0.0" y="445" width="375" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fGs-Vx-6RU" secondAttribute="height" multiplier="125:74" id="fKp-LE-kyh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launchscreen logga.png" translatesAutoresizingMaskIntoConstraints="NO" id="bwi-zC-GOD">
+                                <rect key="frame" x="0.0" y="221.5" width="375" height="224"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bwi-zC-GOD" secondAttribute="height" multiplier="671:401" id="lik-d5-oIH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bwi-zC-GOD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5Rj-2t-eGB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fGs-Vx-6RU" secondAttribute="bottom" id="5Z9-2N-4JE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="srT-f7-8gl" secondAttribute="trailing" id="EMJ-er-FDG"/>
+                            <constraint firstItem="fGs-Vx-6RU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HPc-p5-xD6"/>
+                            <constraint firstItem="bwi-zC-GOD" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="KNS-NO-fXQ"/>
+                            <constraint firstItem="srT-f7-8gl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gFj-2G-7ih"/>
+                            <constraint firstItem="srT-f7-8gl" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="iWf-tS-YBc"/>
+                            <constraint firstItem="fGs-Vx-6RU" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="oIx-oD-Fvx"/>
+                            <constraint firstItem="bwi-zC-GOD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xCH-ib-cft"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launchscreen logga.png" width="671" height="401"/>
+        <image name="launchscreen_lov_bottom" width="375" height="222"/>
+        <image name="launchscreen_lov_top" width="375" height="249"/>
+    </resources>
+</document>

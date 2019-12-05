@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E14AF3022985E8800B113FF /* ViewController_VilaIdetFria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E14AF2F22985E8800B113FF /* ViewController_VilaIdetFria.swift */; };
+		8E14AF322298664000B113FF /* VilaIdetFria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E14AF312298664000B113FF /* VilaIdetFria.mp3 */; };
+		8E48870E22A05D4600ADF2B0 /* ViewController_TestSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48870D22A05D4600ADF2B0 /* ViewController_TestSwitch.swift */; };
+		8E4CEFAA223FC9E500C1F3FB /* ViewController_OppnaSInnen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEFA9223FC9E500C1F3FB /* ViewController_OppnaSInnen.swift */; };
+		8E60DF6822B6B79B00844419 /* ViewController_KomIgang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60DF6722B6B79B00844419 /* ViewController_KomIgang.swift */; };
+		8E60DF6A22B6B89700844419 /* AppIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E60DF6922B6B89700844419 /* AppIntro.mp3 */; };
+		8EAC1DB622807A0100274D5B /* launchscreen_lov_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAC1DB422807A0000274D5B /* launchscreen_lov_bottom.png */; };
+		8EAC1DB722807A0100274D5B /* launchscreen_lov_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAC1DB522807A0100274D5B /* launchscreen_lov_top.png */; };
+		8EACD19B226E55D700A435D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EACD19A226E55D700A435D1 /* Assets.xcassets */; };
+		8EB71F1F2188885500BD2BAD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB71F1E2188885500BD2BAD /* AVFoundation.framework */; };
+		8EC417A7216214A200313D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC417A6216214A200313D46 /* AppDelegate.swift */; };
+		8EC417A9216214A300313D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC417A8216214A300313D46 /* ViewController.swift */; };
+		8EC417AC216214A300313D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC417AA216214A300313D46 /* Main.storyboard */; };
+		8EC417B1216214A300313D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC417AF216214A300313D46 /* LaunchScreen.storyboard */; };
+		8EC417BB2162153300313D46 /* IMFeENrm28P.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EC417B92162153200313D46 /* IMFeENrm28P.ttf */; };
+		8EC417BC2162155800313D46 /* IMFeENit28P.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EC417B82162153200313D46 /* IMFeENit28P.ttf */; };
+		8EF61BAB22908B25000FBE79 /* ViewController_LatNaturen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF61BAA22908B25000FBE79 /* ViewController_LatNaturen.swift */; };
+		8EFB45172289F77400831219 /* LatNaturen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB45162289F77400831219 /* LatNaturen.mp3 */; };
+		8EFB45192289F9F300831219 /* ViewController_KannEttTrad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB45182289F9F300831219 /* ViewController_KannEttTrad.swift */; };
+		8EFB451B2289FA4D00831219 /* KannEttTrad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB451A2289FA4D00831219 /* KannEttTrad.mp3 */; };
+		8EFB451D2289FC6200831219 /*  ViewController_VilaMotEttTrad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB451C2289FC6200831219 /*  ViewController_VilaMotEttTrad.swift */; };
+		8EFB451F2289FCB200831219 /* VilaMotEtt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB451E2289FCB200831219 /* VilaMotEtt.mp3 */; };
+		8EFB45212289FE1D00831219 /* ViewController_EnKortPromenad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB45202289FE1D00831219 /* ViewController_EnKortPromenad.swift */; };
+		8EFB45232289FE9300831219 /* EnKortPromenad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB45222289FE9300831219 /* EnKortPromenad.mp3 */; };
+		8EFB4525228ED6CC00831219 /* GaMedOpppnaSinnenNew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB4524228ED6CC00831219 /* GaMedOpppnaSinnenNew.mp3 */; };
+		F5DB8195238D645C004B41CF /* Launchscreen logga.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DB8194238D645C004B41CF /* Launchscreen logga.png */; };
+		F5DB8197238D7875004B41CF /* ViewController_Merinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DB8196238D7875004B41CF /* ViewController_Merinfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E14AF2F22985E8800B113FF /* ViewController_VilaIdetFria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_VilaIdetFria.swift; sourceTree = "<group>"; };
+		8E14AF312298664000B113FF /* VilaIdetFria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VilaIdetFria.mp3; sourceTree = "<group>"; };
+		8E48870D22A05D4600ADF2B0 /* ViewController_TestSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_TestSwitch.swift; sourceTree = "<group>"; };
+		8E4CEFA9223FC9E500C1F3FB /* ViewController_OppnaSInnen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_OppnaSInnen.swift; sourceTree = "<group>"; };
+		8E5AF90021C6FB580051039C /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		8E60DF6722B6B79B00844419 /* ViewController_KomIgang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_KomIgang.swift; sourceTree = "<group>"; };
+		8E60DF6922B6B89700844419 /* AppIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AppIntro.mp3; sourceTree = "<group>"; };
+		8EAC1DB422807A0000274D5B /* launchscreen_lov_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen_lov_bottom.png; sourceTree = "<group>"; };
+		8EAC1DB522807A0100274D5B /* launchscreen_lov_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen_lov_top.png; sourceTree = "<group>"; };
+		8EACD19A226E55D700A435D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EB71F1E2188885500BD2BAD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8EC417A3216214A200313D46 /* fontTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fontTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC417A6216214A200313D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EC417A8216214A300313D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EC417AB216214A300313D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EC417B0216214A300313D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EC417B2216214A300313D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC417B82162153200313D46 /* IMFeENit28P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMFeENit28P.ttf; sourceTree = "<group>"; };
+		8EC417B92162153200313D46 /* IMFeENrm28P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMFeENrm28P.ttf; sourceTree = "<group>"; };
+		8EF61BAA22908B25000FBE79 /* ViewController_LatNaturen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_LatNaturen.swift; sourceTree = "<group>"; };
+		8EFB45162289F77400831219 /* LatNaturen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LatNaturen.mp3; sourceTree = "<group>"; };
+		8EFB45182289F9F300831219 /* ViewController_KannEttTrad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_KannEttTrad.swift; sourceTree = "<group>"; };
+		8EFB451A2289FA4D00831219 /* KannEttTrad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KannEttTrad.mp3; sourceTree = "<group>"; };
+		8EFB451C2289FC6200831219 /*  ViewController_VilaMotEttTrad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ViewController_VilaMotEttTrad.swift"; sourceTree = "<group>"; };
+		8EFB451E2289FCB200831219 /* VilaMotEtt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VilaMotEtt.mp3; sourceTree = "<group>"; };
+		8EFB45202289FE1D00831219 /* ViewController_EnKortPromenad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_EnKortPromenad.swift; sourceTree = "<group>"; };
+		8EFB45222289FE9300831219 /* EnKortPromenad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EnKortPromenad.mp3; sourceTree = "<group>"; };
+		8EFB4524228ED6CC00831219 /* GaMedOpppnaSinnenNew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GaMedOpppnaSinnenNew.mp3; sourceTree = "<group>"; };
+		F5DB8194238D645C004B41CF /* Launchscreen logga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launchscreen logga.png"; sourceTree = "<group>"; };
+		F5DB8196238D7875004B41CF /* ViewController_Merinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Merinfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC417A0216214A200313D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB71F1F2188885500BD2BAD /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EB71F1D2188885200BD2BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB71F1E2188885500BD2BAD /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EBB317D21E3DA4F00F332D2 /* VIewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				8EFB45202289FE1D00831219 /* ViewController_EnKortPromenad.swift */,
+				8E60DF6722B6B79B00844419 /* ViewController_KomIgang.swift */,
+				F5DB8196238D7875004B41CF /* ViewController_Merinfo.swift */,
+				8EC417A8216214A300313D46 /* ViewController.swift */,
+				8E4CEFA9223FC9E500C1F3FB /* ViewController_OppnaSInnen.swift */,
+				8EFB45182289F9F300831219 /* ViewController_KannEttTrad.swift */,
+				8EFB451C2289FC6200831219 /*  ViewController_VilaMotEttTrad.swift */,
+				8E48870D22A05D4600ADF2B0 /* ViewController_TestSwitch.swift */,
+				8EF61BAA22908B25000FBE79 /* ViewController_LatNaturen.swift */,
+				8E14AF2F22985E8800B113FF /* ViewController_VilaIdetFria.swift */,
+			);
+			path = VIewcontrollers;
+			sourceTree = "<group>";
+		};
+		8EC4179A216214A200313D46 = {
+			isa = PBXGroup;
+			children = (
+				8EC417A5216214A200313D46 /* Naturmeditation */,
+				8EC417A4216214A200313D46 /* Products */,
+				8EB71F1D2188885200BD2BAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC417A4216214A200313D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC417A3216214A200313D46 /* fontTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EC417A5216214A200313D46 /* Naturmeditation */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB317D21E3DA4F00F332D2 /* VIewcontrollers */,
+				8EC417B82162153200313D46 /* IMFeENit28P.ttf */,
+				8E5AF90021C6FB580051039C /* OpenSans-Regular.ttf */,
+				8EC417B92162153200313D46 /* IMFeENrm28P.ttf */,
+				8EC417A6216214A200313D46 /* AppDelegate.swift */,
+				8EFB4524228ED6CC00831219 /* GaMedOpppnaSinnenNew.mp3 */,
+				8EFB45222289FE9300831219 /* EnKortPromenad.mp3 */,
+				8E60DF6922B6B89700844419 /* AppIntro.mp3 */,
+				8EFB451A2289FA4D00831219 /* KannEttTrad.mp3 */,
+				8EFB451E2289FCB200831219 /* VilaMotEtt.mp3 */,
+				8EFB45162289F77400831219 /* LatNaturen.mp3 */,
+				8E14AF312298664000B113FF /* VilaIdetFria.mp3 */,
+				8EC417AA216214A300313D46 /* Main.storyboard */,
+				8EC417AF216214A300313D46 /* LaunchScreen.storyboard */,
+				F5DB8194238D645C004B41CF /* Launchscreen logga.png */,
+				8EAC1DB422807A0000274D5B /* launchscreen_lov_bottom.png */,
+				8EAC1DB522807A0100274D5B /* launchscreen_lov_top.png */,
+				8EC417B2216214A300313D46 /* Info.plist */,
+				8EACD19A226E55D700A435D1 /* Assets.xcassets */,
+			);
+			path = Naturmeditation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EC417A2216214A200313D46 /* fontTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC417B5216214A300313D46 /* Build configuration list for PBXNativeTarget "fontTest" */;
+			buildPhases = (
+				8EC4179F216214A200313D46 /* Sources */,
+				8EC417A0216214A200313D46 /* Frameworks */,
+				8EC417A1216214A200313D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fontTest;
+			productName = fontTest;
+			productReference = 8EC417A3216214A200313D46 /* fontTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EC4179B216214A200313D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kristin Vågberg";
+				TargetAttributes = {
+					8EC417A2216214A200313D46 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8EC4179E216214A200313D46 /* Build configuration list for PBXProject "Naturmeditation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EC4179A216214A200313D46;
+			productRefGroup = 8EC417A4216214A200313D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC417A2216214A200313D46 /* fontTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EC417A1216214A200313D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E60DF6A22B6B89700844419 /* AppIntro.mp3 in Resources */,
+				8EC417B1216214A300313D46 /* LaunchScreen.storyboard in Resources */,
+				8EAC1DB622807A0100274D5B /* launchscreen_lov_bottom.png in Resources */,
+				8EAC1DB722807A0100274D5B /* launchscreen_lov_top.png in Resources */,
+				8EFB451B2289FA4D00831219 /* KannEttTrad.mp3 in Resources */,
+				8EC417BC2162155800313D46 /* IMFeENit28P.ttf in Resources */,
+				8EFB451F2289FCB200831219 /* VilaMotEtt.mp3 in Resources */,
+				8EFB45172289F77400831219 /* LatNaturen.mp3 in Resources */,
+				F5DB8195238D645C004B41CF /* Launchscreen logga.png in Resources */,
+				8EC417BB2162153300313D46 /* IMFeENrm28P.ttf in Resources */,
+				8E14AF322298664000B113FF /* VilaIdetFria.mp3 in Resources */,
+				8EC417AC216214A300313D46 /* Main.storyboard in Resources */,
+				8EFB4525228ED6CC00831219 /* GaMedOpppnaSinnenNew.mp3 in Resources */,
+				8EFB45232289FE9300831219 /* EnKortPromenad.mp3 in Resources */,
+				8EACD19B226E55D700A435D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EC4179F216214A200313D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF61BAB22908B25000FBE79 /* ViewController_LatNaturen.swift in Sources */,
+				8EFB45212289FE1D00831219 /* ViewController_EnKortPromenad.swift in Sources */,
+				8E60DF6822B6B79B00844419 /* ViewController_KomIgang.swift in Sources */,
+				8E14AF3022985E8800B113FF /* ViewController_VilaIdetFria.swift in Sources */,
+				8E48870E22A05D4600ADF2B0 /* ViewController_TestSwitch.swift in Sources */,
+				F5DB8197238D7875004B41CF /* ViewController_Merinfo.swift in Sources */,
+				8EC417A9216214A300313D46 /* ViewController.swift in Sources */,
+				8EC417A7216214A200313D46 /* AppDelegate.swift in Sources */,
+				8E4CEFAA223FC9E500C1F3FB /* ViewController_OppnaSInnen.swift in Sources */,
+				8EFB45192289F9F300831219 /* ViewController_KannEttTrad.swift in Sources */,
+				8EFB451D2289FC6200831219 /*  ViewController_VilaMotEttTrad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EC417AA216214A300313D46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC417AB216214A300313D46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EC417AF216214A300313D46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC417B0216214A300313D46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EC417B3216214A300313D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EC417B4216214A300313D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EC417B6216214A300313D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JXVQFQH2X;
+				INFOPLIST_FILE = "$(SRCROOT)/Naturmeditation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "se.naturmeditation.Natur-meditation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8EC417B7216214A300313D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JXVQFQH2X;
+				INFOPLIST_FILE = "$(SRCROOT)/Naturmeditation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "se.naturmeditation.Natur-meditation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EC4179E216214A200313D46 /* Build configuration list for PBXProject "Naturmeditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC417B3216214A300313D46 /* Debug */,
+				8EC417B4216214A300313D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC417B5216214A300313D46 /* Build configuration list for PBXNativeTarget "fontTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC417B6216214A300313D46 /* Debug */,
+				8EC417B7216214A300313D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EC4179B216214A200313D46 /* Project object */;
+}
