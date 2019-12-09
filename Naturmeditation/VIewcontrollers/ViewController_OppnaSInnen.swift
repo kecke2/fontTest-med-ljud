@@ -19,6 +19,8 @@ class ViewController_OppnaSinnen: UIViewController {
     @IBOutlet weak var MaxTid: UILabel!
     @IBOutlet weak var PlayStopButton: UIButton!
     
+    
+    
     //var ChangeButton
     var ChangeButton = 1
     //musicplayer

@@ -106,16 +106,16 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mer info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaZ-gP-kCF" userLabel="Kom igång">
-                                <rect key="frame" x="30" y="55" width="260" height="35"/>
+                                <rect key="frame" x="30" y="55" width="260" height="38.5"/>
                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="30"/>
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="758" verticalCompressionResistancePriority="756" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nxs-0W-YQc">
-                                <rect key="frame" x="30" y="120" width="260" height="79"/>
+                                <rect key="frame" x="30" y="123.5" width="260" height="83"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eA4-Yu-TF2" userLabel="Support">
-                                        <rect key="frame" x="0.0" y="0.0" width="76" height="37"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="39"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
                                         <state key="normal" title="Support">
                                             <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -125,7 +125,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jpO-1g-wdP">
-                                        <rect key="frame" x="0.0" y="42" width="131" height="37"/>
+                                        <rect key="frame" x="0.0" y="44" width="121" height="39"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
                                         <state key="normal" title="Privacy policy">
                                             <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -137,7 +137,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ormbunke" translatesAutoresizingMaskIntoConstraints="NO" id="ZSh-N8-hsz">
-                                <rect key="frame" x="0.0" y="332" width="320" height="187"/>
+                                <rect key="frame" x="0.0" y="332" width="320" height="187.00000000000011"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ZSh-N8-hsz" secondAttribute="height" multiplier="671:392" id="2WR-AP-8K5"/>
                                 </constraints>
@@ -198,86 +198,6 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="235-aS-Lti" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2584" y="-282"/>
-        </scene>
-        <!--test-->
-        <scene sceneID="Itz-fP-kg5">
-            <objects>
-                <viewController id="CIF-g2-08l" userLabel="test" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7EW-1r-5IF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLP-V8-rID">
-                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UrM-UI-v69" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJa-LF-HZl">
-                                                <rect key="frame" x="20" y="20" width="280" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="df5-IL-OGQ">
-                                                <rect key="frame" x="20" y="61" width="280" height="609"/>
-                                                <string key="text">Label
-1sflsjd 2sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd 22sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdfjsflsjd sdfsdf
-zsfsdf</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="900" id="2Gu-gZ-y6T"/>
-                                            <constraint firstAttribute="trailing" secondItem="zJa-LF-HZl" secondAttribute="trailing" constant="20" id="Enh-nH-Ut7"/>
-                                            <constraint firstItem="zJa-LF-HZl" firstAttribute="top" secondItem="UrM-UI-v69" secondAttribute="top" constant="20" id="L0L-qy-w4S"/>
-                                            <constraint firstItem="df5-IL-OGQ" firstAttribute="leading" secondItem="UrM-UI-v69" secondAttribute="leading" constant="20" id="PxX-xn-EOm"/>
-                                            <constraint firstAttribute="trailing" secondItem="df5-IL-OGQ" secondAttribute="trailing" constant="20" id="bG3-BQ-g2f"/>
-                                            <constraint firstItem="df5-IL-OGQ" firstAttribute="top" secondItem="zJa-LF-HZl" secondAttribute="bottom" constant="20" id="fpm-Gt-VJw"/>
-                                            <constraint firstItem="zJa-LF-HZl" firstAttribute="leading" secondItem="UrM-UI-v69" secondAttribute="leading" constant="20" id="yWC-i0-U3G"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="UrM-UI-v69" secondAttribute="bottom" constant="8" id="Cbo-ax-nHN"/>
-                                    <constraint firstItem="UrM-UI-v69" firstAttribute="top" secondItem="pLP-V8-rID" secondAttribute="top" id="LLz-Ba-EKn"/>
-                                    <constraint firstItem="UrM-UI-v69" firstAttribute="leading" secondItem="pLP-V8-rID" secondAttribute="leading" id="PHW-ji-BoO"/>
-                                    <constraint firstItem="UrM-UI-v69" firstAttribute="width" secondItem="pLP-V8-rID" secondAttribute="width" id="S1u-8K-ZRd"/>
-                                    <constraint firstAttribute="trailing" secondItem="UrM-UI-v69" secondAttribute="trailing" id="ddo-bo-5gY"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="pLP-V8-rID" firstAttribute="bottom" secondItem="Vmd-Wm-jXv" secondAttribute="bottom" id="Gon-7T-zBr"/>
-                            <constraint firstItem="pLP-V8-rID" firstAttribute="trailing" secondItem="Vmd-Wm-jXv" secondAttribute="trailing" id="KFE-N5-AJi"/>
-                            <constraint firstItem="pLP-V8-rID" firstAttribute="leading" secondItem="Vmd-Wm-jXv" secondAttribute="leading" id="hKp-uv-5YM"/>
-                            <constraint firstItem="pLP-V8-rID" firstAttribute="width" secondItem="7EW-1r-5IF" secondAttribute="width" id="soj-Tn-cb0"/>
-                            <constraint firstItem="pLP-V8-rID" firstAttribute="top" secondItem="Vmd-Wm-jXv" secondAttribute="top" id="ugv-r7-PmE"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Vmd-Wm-jXv"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="M4N-Fu-wbF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1974.375" y="527.11267605633805"/>
         </scene>
         <!--Naturmeditation-->
         <scene sceneID="p5S-2y-3Aj">
@@ -700,7 +620,7 @@ zsfsdf</string>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hd8-98-6Eh" userLabel="text">
-                                <rect key="frame" x="25" y="99" width="270" height="200.5"/>
+                                <rect key="frame" x="25" y="99" width="270" height="177.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gå med öppna sinnen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UmA-bm-n5Q">
                                         <rect key="frame" x="42" y="0.0" width="186.5" height="86.5"/>
@@ -714,10 +634,17 @@ zsfsdf</string>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Välj en naturnära väg, promenadstråk eller stig." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epp-zG-pYs">
-                                        <rect key="frame" x="38.5" y="152" width="193.5" height="48.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epp-zG-pYs">
+                                        <rect key="frame" x="11.5" y="152" width="247" height="25.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Välj en naturnära väg eller stig.">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="18" name=".SFNSText"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -800,121 +727,6 @@ zsfsdf</string>
             </objects>
             <point key="canvasLocation" x="774" y="-61"/>
         </scene>
-        <!--Gå  med öppna sinnen-->
-        <scene sceneID="7dY-6Q-xia">
-            <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="X42-Vx-2Xj" userLabel="Gå  med öppna sinnen" customClass="ViewController_OppnaSinnen" customModule="fontTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="y5j-2o-oM2">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ormbunke" translatesAutoresizingMaskIntoConstraints="NO" id="r7z-FE-jSc">
-                                <rect key="frame" x="0.0" y="20" width="94" height="548"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="r7z-FE-jSc" secondAttribute="height" multiplier="115:671" id="djr-sV-xea"/>
-                                </constraints>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6fC-pk-WjQ" userLabel="text">
-                                <rect key="frame" x="25" y="45" width="270" height="187.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gå med öppna sinnen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0aR-ge-MR3">
-                                        <rect key="frame" x="32" y="0.0" width="206" height="79.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="34"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yef-zP-Z5I">
-                                        <rect key="frame" x="105" y="99.5" width="60.5" height="23.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Välj en naturnära väg, promenadstråk eller stig." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5b-pI-hZ4">
-                                        <rect key="frame" x="30" y="143" width="210.5" height="44.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ta4-0a-1gT" userLabel="buttons">
-                                <rect key="frame" x="25" y="378.5" width="270" height="164.5"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRq-MH-pUU">
-                                        <rect key="frame" x="116" y="0.0" width="38" height="38"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.90000000000000002" height="1"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="MRq-MH-pUU" secondAttribute="height" multiplier="80:80" id="4dj-ag-QMG"/>
-                                        </constraints>
-                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
-                                        <state key="normal" image="play"/>
-                                        <state key="highlighted" image="lov_top"/>
-                                        <connections>
-                                            <action selector="PlayKannEttTrad:" destination="X42-Vx-2Xj" eventType="touchUpInside" id="QaS-lB-437"/>
-                                        </connections>
-                                    </button>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4GE-y1-0TJ">
-                                        <rect key="frame" x="-2" y="48" width="274" height="52.5"/>
-                                        <color key="tintColor" red="0.1112625122" green="0.79674054409999995" blue="0.811944797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="thumbTintColor" red="0.6588235294" green="0.87058823529999996" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <connections>
-                                            <action selector="ChangeAudioTime:" destination="X42-Vx-2Xj" eventType="valueChanged" id="GTX-Eb-DJ5"/>
-                                        </connections>
-                                    </slider>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eHO-Y5-SFw">
-                                        <rect key="frame" x="0.0" y="109.5" width="270" height="55"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSH-kE-rZw" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="39" height="55"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="18:48" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baf-Ci-G8w" userLabel="0:00">
-                                                <rect key="frame" x="39" y="0.0" width="231" height="55"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="4GE-y1-0TJ" firstAttribute="leading" secondItem="eHO-Y5-SFw" secondAttribute="leading" id="0UQ-bZ-cRk"/>
-                                    <constraint firstAttribute="trailing" secondItem="eHO-Y5-SFw" secondAttribute="trailing" id="8fH-53-vgv"/>
-                                    <constraint firstItem="eHO-Y5-SFw" firstAttribute="leading" secondItem="ta4-0a-1gT" secondAttribute="leading" id="H2H-dT-d4z"/>
-                                    <constraint firstItem="MRq-MH-pUU" firstAttribute="top" secondItem="ta4-0a-1gT" secondAttribute="top" id="VRW-Cm-noo"/>
-                                    <constraint firstAttribute="bottom" secondItem="eHO-Y5-SFw" secondAttribute="bottom" id="hex-gE-0Zq"/>
-                                    <constraint firstItem="eHO-Y5-SFw" firstAttribute="trailing" secondItem="4GE-y1-0TJ" secondAttribute="trailing" id="msG-ry-5lO"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.3796690579" green="0.2687558585" blue="0.1492202624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="r7z-FE-jSc" firstAttribute="leading" secondItem="8So-aF-FcQ" secondAttribute="leading" id="0Ko-gb-WLM"/>
-                            <constraint firstItem="r7z-FE-jSc" firstAttribute="top" secondItem="8So-aF-FcQ" secondAttribute="top" id="4Xf-kY-Jpd"/>
-                            <constraint firstItem="8So-aF-FcQ" firstAttribute="bottom" secondItem="ta4-0a-1gT" secondAttribute="bottom" constant="25" id="9B5-lU-Q6E"/>
-                            <constraint firstItem="6fC-pk-WjQ" firstAttribute="top" secondItem="8So-aF-FcQ" secondAttribute="top" constant="25" id="IoW-FQ-ZOy"/>
-                            <constraint firstItem="ta4-0a-1gT" firstAttribute="height" secondItem="8So-aF-FcQ" secondAttribute="height" multiplier="0.3" id="Ju4-6g-xHn"/>
-                            <constraint firstItem="ta4-0a-1gT" firstAttribute="leading" secondItem="8So-aF-FcQ" secondAttribute="leading" constant="25" id="NDS-0Y-znT"/>
-                            <constraint firstItem="8So-aF-FcQ" firstAttribute="trailing" secondItem="ta4-0a-1gT" secondAttribute="trailing" constant="25" id="OPv-4C-ZRH"/>
-                            <constraint firstItem="r7z-FE-jSc" firstAttribute="height" secondItem="8So-aF-FcQ" secondAttribute="height" id="V13-Z0-iKu"/>
-                            <constraint firstItem="6fC-pk-WjQ" firstAttribute="leading" secondItem="8So-aF-FcQ" secondAttribute="leading" constant="25" id="aU7-YN-bwe"/>
-                            <constraint firstItem="8So-aF-FcQ" firstAttribute="trailing" secondItem="6fC-pk-WjQ" secondAttribute="trailing" constant="25" id="vxv-bt-hXW"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="8So-aF-FcQ"/>
-                    </view>
-                    <connections>
-                        <outlet property="CurrentTidd" destination="JSH-kE-rZw" id="9tv-dX-CeO"/>
-                        <outlet property="MaxTid" destination="Baf-Ci-G8w" id="p6C-SJ-fvJ"/>
-                        <outlet property="PlayStopButton" destination="MRq-MH-pUU" id="65I-yY-nHY"/>
-                        <outlet property="SliderVilaMotTrad" destination="4GE-y1-0TJ" id="iWH-ST-5na"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9IA-wu-Rmj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1671" y="1518"/>
-        </scene>
         <!--Låt naturen ta hand om stressen-->
         <scene sceneID="7o7-Pk-LrB">
             <objects>
@@ -930,7 +742,7 @@ zsfsdf</string>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FjU-dR-Otq" userLabel="text">
-                                <rect key="frame" x="25" y="94" width="270" height="204.5"/>
+                                <rect key="frame" x="25" y="94" width="270" height="208"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Låt naturen ta hand om stressen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYg-dA-Jo1" userLabel="Låt naturen ta hand om stressen">
                                         <rect key="frame" x="0.0" y="0.0" width="270" height="86.5"/>
@@ -947,10 +759,16 @@ zsfsdf</string>
                                         <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stå eller sitt på en naturnära plats, gärna en som du kan återvända till regelbundet." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hak-eu-aej">
-                                        <rect key="frame" x="0.0" y="132" width="270" height="72.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hak-eu-aej">
+                                        <rect key="frame" x="0.0" y="132" width="270" height="75.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Stå eller sitt på en naturnära plats, gärna en som du kan återvända till regelbundet.">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name=".SFNSText"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -983,13 +801,13 @@ zsfsdf</string>
                                         <rect key="frame" x="0.0" y="136.5" width="230" height="14.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnJ-G7-Z5U" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="10:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fz0-QM-Z9Z" userLabel="0:00">
-                                                <rect key="frame" x="35" y="0.0" width="195" height="14.5"/>
+                                                <rect key="frame" x="187.5" y="0.0" width="42.5" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1033,121 +851,6 @@ zsfsdf</string>
             </objects>
             <point key="canvasLocation" x="1538" y="20"/>
         </scene>
-        <!--COPY Låt naturen ta hand om stressen-->
-        <scene sceneID="fsG-0J-8mo">
-            <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="0gK-up-EXx" userLabel="COPY Låt naturen ta hand om stressen" customClass="ViewController_LatNaturen" customModule="fontTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ogh-kj-XKE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faglar" translatesAutoresizingMaskIntoConstraints="NO" id="PCq-44-25d">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="170.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="PCq-44-25d" secondAttribute="height" multiplier="15:8" id="mf9-kn-frk"/>
-                                </constraints>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="c7i-Lu-9YR" userLabel="text">
-                                <rect key="frame" x="25" y="70" width="270" height="224.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Låt naturen ta hand om stressen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KWP-Fg-jSC" userLabel="Låt naturen ta hand om stressen">
-                                        <rect key="frame" x="0.0" y="0.0" width="270" height="86.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="34"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQD-Ag-wf3">
-                                        <rect key="frame" x="0.0" y="106.5" width="270" height="25.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stå eller sitt på en naturnära plats, gärna en som du kan återvända till regelbundet." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZy-VZ-2km">
-                                        <rect key="frame" x="0.0" y="152" width="270" height="72.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uCE-zV-aII" userLabel="buttons">
-                                <rect key="frame" x="25" y="378.5" width="270" height="164.5"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tm-VI-xD1">
-                                        <rect key="frame" x="84" y="0.0" width="102" height="101.5"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.90000000000000002" height="1"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="7Tm-VI-xD1" secondAttribute="height" multiplier="80:80" id="w9y-i5-q1I"/>
-                                        </constraints>
-                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
-                                        <state key="normal" image="play"/>
-                                        <state key="highlighted" image="lov_top"/>
-                                        <connections>
-                                            <action selector="PlayKannEttTrad:" destination="0gK-up-EXx" eventType="touchUpInside" id="EsW-Rh-gTx"/>
-                                        </connections>
-                                    </button>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="uf4-Ur-2wB">
-                                        <rect key="frame" x="-2" y="111.5" width="274" height="26"/>
-                                        <color key="tintColor" red="0.1112625122" green="0.79674054409999995" blue="0.811944797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="thumbTintColor" red="0.6588235294" green="0.87058823529999996" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <connections>
-                                            <action selector="ChangeAudioTime:" destination="0gK-up-EXx" eventType="valueChanged" id="h6m-7J-8Lb"/>
-                                        </connections>
-                                    </slider>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slh-JQ-ZXq">
-                                        <rect key="frame" x="0.0" y="146.5" width="270" height="18"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnh-Mz-Y02" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="18"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="10:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0Q-9l-Bw9" userLabel="0:00">
-                                                <rect key="frame" x="35" y="0.0" width="235" height="18"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="7Tm-VI-xD1" firstAttribute="top" secondItem="uCE-zV-aII" secondAttribute="top" id="7Ti-db-DYc"/>
-                                    <constraint firstItem="slh-JQ-ZXq" firstAttribute="trailing" secondItem="uf4-Ur-2wB" secondAttribute="trailing" id="8LT-rO-PIq"/>
-                                    <constraint firstAttribute="bottom" secondItem="slh-JQ-ZXq" secondAttribute="bottom" id="DkC-Gx-jL3"/>
-                                    <constraint firstAttribute="trailing" secondItem="slh-JQ-ZXq" secondAttribute="trailing" id="FBf-mw-GNe"/>
-                                    <constraint firstItem="uf4-Ur-2wB" firstAttribute="leading" secondItem="slh-JQ-ZXq" secondAttribute="leading" id="fot-Ij-Sfv"/>
-                                    <constraint firstItem="slh-JQ-ZXq" firstAttribute="leading" secondItem="uCE-zV-aII" secondAttribute="leading" id="qZD-lV-p1y"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.3796690579" green="0.2687558585" blue="0.1492202624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="PCq-44-25d" firstAttribute="leading" secondItem="8pj-mb-HBH" secondAttribute="leading" id="2SE-Ve-UW7"/>
-                            <constraint firstItem="uCE-zV-aII" firstAttribute="height" secondItem="8pj-mb-HBH" secondAttribute="height" multiplier="0.3" id="2eX-eA-AwQ"/>
-                            <constraint firstItem="uCE-zV-aII" firstAttribute="leading" secondItem="8pj-mb-HBH" secondAttribute="leading" constant="25" id="FCG-xm-ewf"/>
-                            <constraint firstItem="c7i-Lu-9YR" firstAttribute="leading" secondItem="8pj-mb-HBH" secondAttribute="leading" constant="25" id="HfF-Tj-hg8"/>
-                            <constraint firstItem="PCq-44-25d" firstAttribute="width" secondItem="Ogh-kj-XKE" secondAttribute="width" id="X3A-6x-DO7"/>
-                            <constraint firstItem="8pj-mb-HBH" firstAttribute="trailing" secondItem="uCE-zV-aII" secondAttribute="trailing" constant="25" id="f38-fp-GcC"/>
-                            <constraint firstItem="PCq-44-25d" firstAttribute="top" secondItem="Ogh-kj-XKE" secondAttribute="top" id="hEH-23-Xad"/>
-                            <constraint firstItem="8pj-mb-HBH" firstAttribute="bottom" secondItem="uCE-zV-aII" secondAttribute="bottom" constant="25" id="iQW-Rf-xXx"/>
-                            <constraint firstItem="c7i-Lu-9YR" firstAttribute="top" secondItem="8pj-mb-HBH" secondAttribute="top" constant="50" id="psQ-ip-tc5"/>
-                            <constraint firstItem="8pj-mb-HBH" firstAttribute="trailing" secondItem="c7i-Lu-9YR" secondAttribute="trailing" constant="25" id="yfL-mz-YNk"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="8pj-mb-HBH"/>
-                    </view>
-                    <connections>
-                        <outlet property="CurrentTidd" destination="tnh-Mz-Y02" id="Epk-qE-gs5"/>
-                        <outlet property="MaxTid" destination="E0Q-9l-Bw9" id="S2N-au-3DU"/>
-                        <outlet property="PlayStopButton" destination="7Tm-VI-xD1" id="sUl-1Y-2GZ"/>
-                        <outlet property="SliderVilaMotTrad" destination="uf4-Ur-2wB" id="yqv-af-NvU"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rWx-Fy-BmU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1830" y="772"/>
-        </scene>
         <!--Kann Ett Trad-->
         <scene sceneID="5n0-i4-Ut9">
             <objects>
@@ -1163,7 +866,7 @@ zsfsdf</string>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="B0E-8H-zLa" userLabel="text">
-                                <rect key="frame" x="25" y="99" width="255" height="137.5"/>
+                                <rect key="frame" x="25" y="99" width="255" height="139.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Känn ett träd" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B47-03-JfH" userLabel="Låt naturen ta hand om stressen">
                                         <rect key="frame" x="34.5" y="0.0" width="186.5" height="43.5"/>
@@ -1178,10 +881,17 @@ zsfsdf</string>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stå någon meter framför ett träd." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BH6-zL-29P">
-                                        <rect key="frame" x="29.5" y="89" width="196.5" height="48.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BH6-zL-29P">
+                                        <rect key="frame" x="26.5" y="89" width="202" height="50.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Stå någon meter framför ett träd.">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="18" name=".SFNSText"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1214,13 +924,13 @@ zsfsdf</string>
                                         <rect key="frame" x="0.0" y="136.5" width="200" height="14.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIR-9f-9ib" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="157.5" height="14.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="10:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbG-a1-3Cj" userLabel="0:00">
-                                                <rect key="frame" x="157.5" y="0.0" width="42.5" height="14.5"/>
+                                                <rect key="frame" x="35" y="0.0" width="165" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1266,121 +976,6 @@ zsfsdf</string>
             </objects>
             <point key="canvasLocation" x="2278" y="19"/>
         </scene>
-        <!--Kann Ett Trad-->
-        <scene sceneID="ytu-lL-ehh">
-            <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="bkF-7y-7hE" userLabel="Kann Ett Trad" customClass="ViewController_KannEttTrad" customModule="fontTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="AFk-Sd-vGg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mats_skog" translatesAutoresizingMaskIntoConstraints="NO" id="eTn-RU-gJ0">
-                                <rect key="frame" x="0.0" y="401.5" width="320" height="166.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="eTn-RU-gJ0" secondAttribute="height" multiplier="671:349" id="rAB-QU-cor"/>
-                                </constraints>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uQS-Du-fSP" userLabel="text">
-                                <rect key="frame" x="25" y="45" width="270" height="133.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Känn ett träd" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gYF-7o-Owu" userLabel="Låt naturen ta hand om stressen">
-                                        <rect key="frame" x="42" y="0.0" width="186.5" height="43.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="34"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5T-l0-SfK">
-                                        <rect key="frame" x="108.5" y="63.5" width="53" height="25.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stå någon meter framför ett träd." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofM-a9-agM">
-                                        <rect key="frame" x="6" y="109" width="258.5" height="24.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sxC-b4-uAa" userLabel="buttons">
-                                <rect key="frame" x="25" y="283.5" width="270" height="164.5"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QX2-5Q-77R">
-                                        <rect key="frame" x="84" y="0.0" width="102" height="101.5"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.90000000000000002" height="1"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="QX2-5Q-77R" secondAttribute="height" multiplier="80:80" id="Yyi-Wz-9nq"/>
-                                        </constraints>
-                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
-                                        <state key="normal" image="play"/>
-                                        <state key="highlighted" image="lov_top"/>
-                                        <connections>
-                                            <action selector="PlayKannEttTrad:" destination="bkF-7y-7hE" eventType="touchUpInside" id="Y42-hZ-KYL"/>
-                                        </connections>
-                                    </button>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="T8N-7S-qQV">
-                                        <rect key="frame" x="-2" y="111.5" width="274" height="26"/>
-                                        <color key="tintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="thumbTintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <connections>
-                                            <action selector="ChangeAudioTime:" destination="bkF-7y-7hE" eventType="valueChanged" id="b5b-bk-Icj"/>
-                                        </connections>
-                                    </slider>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iat-Vf-d6h">
-                                        <rect key="frame" x="0.0" y="146.5" width="270" height="18"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jK4-Zz-Zwd" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="18"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="10:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGU-Np-CmW" userLabel="0:00">
-                                                <rect key="frame" x="35" y="0.0" width="235" height="18"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="iat-Vf-d6h" firstAttribute="leading" secondItem="sxC-b4-uAa" secondAttribute="leading" id="5TN-Zu-f1c"/>
-                                    <constraint firstItem="iat-Vf-d6h" firstAttribute="trailing" secondItem="T8N-7S-qQV" secondAttribute="trailing" id="Crd-KM-F97"/>
-                                    <constraint firstAttribute="bottom" secondItem="iat-Vf-d6h" secondAttribute="bottom" id="MzF-pu-Wag"/>
-                                    <constraint firstAttribute="trailing" secondItem="iat-Vf-d6h" secondAttribute="trailing" id="WLh-IG-YyV"/>
-                                    <constraint firstItem="QX2-5Q-77R" firstAttribute="top" secondItem="sxC-b4-uAa" secondAttribute="top" id="cBf-ii-MkB"/>
-                                    <constraint firstItem="T8N-7S-qQV" firstAttribute="leading" secondItem="iat-Vf-d6h" secondAttribute="leading" id="mE7-51-SS0"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.3796690579" green="0.2687558585" blue="0.1492202624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="eTn-RU-gJ0" firstAttribute="bottom" secondItem="KvJ-eV-yj0" secondAttribute="bottom" id="5A5-kt-VNC"/>
-                            <constraint firstItem="uQS-Du-fSP" firstAttribute="leading" secondItem="KvJ-eV-yj0" secondAttribute="leading" constant="25" id="9ly-eb-Jnt"/>
-                            <constraint firstItem="sxC-b4-uAa" firstAttribute="height" secondItem="KvJ-eV-yj0" secondAttribute="height" multiplier="0.3" id="Dax-jX-Yei"/>
-                            <constraint firstItem="KvJ-eV-yj0" firstAttribute="trailing" secondItem="uQS-Du-fSP" secondAttribute="trailing" constant="25" id="F5f-vh-U2v"/>
-                            <constraint firstItem="eTn-RU-gJ0" firstAttribute="leading" secondItem="KvJ-eV-yj0" secondAttribute="leading" id="PRj-pq-CJ3"/>
-                            <constraint firstItem="KvJ-eV-yj0" firstAttribute="trailing" secondItem="sxC-b4-uAa" secondAttribute="trailing" constant="25" id="dJc-Xo-Rzj"/>
-                            <constraint firstItem="uQS-Du-fSP" firstAttribute="top" secondItem="KvJ-eV-yj0" secondAttribute="top" constant="25" id="kYN-wp-feM"/>
-                            <constraint firstItem="sxC-b4-uAa" firstAttribute="leading" secondItem="KvJ-eV-yj0" secondAttribute="leading" constant="25" id="sn1-vq-7pf"/>
-                            <constraint firstItem="eTn-RU-gJ0" firstAttribute="width" secondItem="KvJ-eV-yj0" secondAttribute="width" id="tLP-90-vZ5"/>
-                            <constraint firstItem="KvJ-eV-yj0" firstAttribute="bottom" secondItem="sxC-b4-uAa" secondAttribute="bottom" constant="120" id="wvJ-ae-HYI"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="KvJ-eV-yj0"/>
-                    </view>
-                    <connections>
-                        <outlet property="CurrentTidd" destination="jK4-Zz-Zwd" id="dG8-vt-PPK"/>
-                        <outlet property="MaxTid" destination="hGU-Np-CmW" id="zeU-pC-K8S"/>
-                        <outlet property="PlayStopButton" destination="QX2-5Q-77R" id="0F6-ab-6Di"/>
-                        <outlet property="SliderVilaMotTrad" destination="T8N-7S-qQV" id="2XT-K4-6X7"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vJl-3k-Hcu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2674" y="771"/>
-        </scene>
         <!--Vila mot ett trad-->
         <scene sceneID="a6G-Hw-7Au">
             <objects>
@@ -1390,7 +985,7 @@ zsfsdf</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LTm-6X-qNw" userLabel="text">
-                                <rect key="frame" x="25" y="99" width="245" height="181.5"/>
+                                <rect key="frame" x="25" y="99" width="245" height="170"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vila mot ett träd" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rt8-sS-oLF" userLabel="Låt naturen ta hand om stressen">
                                         <rect key="frame" x="7.5" y="0.0" width="230" height="43.5"/>
@@ -1404,10 +999,17 @@ zsfsdf</string>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Sitt med ryggen mot ett träd, gärna på ett sittunderlag." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdf-J4-SPZ">
-                                        <rect key="frame" x="20" y="109" width="205" height="72.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdf-J4-SPZ">
+                                        <rect key="frame" x="20" y="109" width="205" height="61"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content=" Sitt med ryggen mot ett träd, gärna på ett sittunderlag.">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1443,13 +1045,13 @@ zsfsdf</string>
                                         <rect key="frame" x="0.0" y="136.5" width="200" height="14.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KpA-dO-ZBd" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="158" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="12:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ud-eb-ici" userLabel="0:00">
-                                                <rect key="frame" x="35" y="0.0" width="165" height="14.5"/>
+                                                <rect key="frame" x="158" y="0.0" width="42" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1507,7 +1109,7 @@ zsfsdf</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yOV-tH-wHZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3009.375" y="17.95774647887324"/>
+            <point key="canvasLocation" x="2674" y="-804"/>
         </scene>
         <!--EnKortPromenad-->
         <scene sceneID="yaT-dT-jTD">
@@ -1544,14 +1146,21 @@ zsfsdf</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Välj en naturnära väg,  promenadstråk eller stig." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pp-IH-UB8">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pp-IH-UB8">
                                         <rect key="frame" x="35" y="132" width="200" height="51"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="6uC-ip-9NC"/>
                                             <constraint firstAttribute="width" secondItem="1pp-IH-UB8" secondAttribute="height" multiplier="63:16" id="fSM-cr-sbb"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Välj en naturnära väg eller stig.">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="18" name=".AppleSystemUIFont"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1669,14 +1278,21 @@ zsfsdf</string>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naturmeditation för lugn, närvaro och inre styrka." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYW-Xw-2fs">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYW-Xw-2fs">
                                         <rect key="frame" x="20" y="96.5" width="230" height="58.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="230" id="0Hh-fF-6kE"/>
                                             <constraint firstAttribute="width" secondItem="sYW-Xw-2fs" secondAttribute="height" multiplier="63:16" id="6lT-Cu-DHb"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Naturmeditation för lugn, närvaro och inre styrka.">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="18" name=".AppleSystemUIFont"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1763,131 +1379,6 @@ zsfsdf</string>
             </objects>
             <point key="canvasLocation" x="4575" y="6"/>
         </scene>
-        <!--EnKortPromenad-->
-        <scene sceneID="SAW-i4-7qq">
-            <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="08u-zl-Syn" userLabel="EnKortPromenad" customClass="ViewController_EnKortPromenad" customModule="fontTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Dno-PC-ggm">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kotte" translatesAutoresizingMaskIntoConstraints="NO" id="Dxx-4N-p5j">
-                                <rect key="frame" x="0.0" y="20" width="70" height="548"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Dxx-4N-p5j" secondAttribute="height" multiplier="86:671" id="zm1-Pd-Ept"/>
-                                </constraints>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="v24-EF-7Md" userLabel="text">
-                                <rect key="frame" x="25" y="55" width="270" height="203"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="En kort promenad med öppna sinnen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UXy-c3-w8B" userLabel="Låt naturen ta hand om stressen">
-                                        <rect key="frame" x="0.0" y="0.0" width="270" height="86.5"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="UXy-c3-w8B" secondAttribute="height" multiplier="53:17" id="Dh4-iI-hTC"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="34"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egx-27-hGm">
-                                        <rect key="frame" x="113" y="106.5" width="44" height="25.5"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="Egx-27-hGm" secondAttribute="height" multiplier="43:25" id="Iil-UY-NSn"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Välj en naturnära väg,  promenadstråk eller stig." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bcw-aX-aTN">
-                                        <rect key="frame" x="35" y="152" width="200" height="51"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="Bcw-aX-aTN" secondAttribute="height" multiplier="63:16" id="oNl-iP-avj"/>
-                                            <constraint firstAttribute="width" constant="200" id="uJU-Ro-ifi"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lHl-fo-LCh" userLabel="buttons">
-                                <rect key="frame" x="25" y="378.5" width="270" height="164.5"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bi1-ug-aqN">
-                                        <rect key="frame" x="84" y="0.0" width="102" height="101.5"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.90000000000000002" height="1"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="bi1-ug-aqN" secondAttribute="height" multiplier="80:80" id="6YI-xj-KUq"/>
-                                        </constraints>
-                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
-                                        <state key="normal" image="play"/>
-                                        <state key="highlighted" image="lov_top"/>
-                                        <connections>
-                                            <action selector="PlayKannEttTrad:" destination="08u-zl-Syn" eventType="touchUpInside" id="iON-dx-CHt"/>
-                                        </connections>
-                                    </button>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2BR-ST-cW7">
-                                        <rect key="frame" x="-2" y="111.5" width="274" height="26"/>
-                                        <color key="tintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="thumbTintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <connections>
-                                            <action selector="ChangeAudioTime:" destination="08u-zl-Syn" eventType="valueChanged" id="dz4-wN-nq3"/>
-                                        </connections>
-                                    </slider>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fdx-eE-2tn">
-                                        <rect key="frame" x="0.0" y="146.5" width="270" height="18"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2m-VI-Yuu" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="18"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="05:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0T-sg-W6R" userLabel="0:00">
-                                                <rect key="frame" x="35" y="0.0" width="235" height="18"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="Fdx-eE-2tn" firstAttribute="trailing" secondItem="2BR-ST-cW7" secondAttribute="trailing" id="4CF-6x-IIk"/>
-                                    <constraint firstItem="Fdx-eE-2tn" firstAttribute="leading" secondItem="lHl-fo-LCh" secondAttribute="leading" id="hnr-dq-JEU"/>
-                                    <constraint firstItem="bi1-ug-aqN" firstAttribute="top" secondItem="lHl-fo-LCh" secondAttribute="top" id="pr2-GR-CtJ"/>
-                                    <constraint firstAttribute="bottom" secondItem="Fdx-eE-2tn" secondAttribute="bottom" id="s3Q-jB-dTa"/>
-                                    <constraint firstAttribute="trailing" secondItem="Fdx-eE-2tn" secondAttribute="trailing" id="sU0-Dz-7W7"/>
-                                    <constraint firstItem="2BR-ST-cW7" firstAttribute="leading" secondItem="Fdx-eE-2tn" secondAttribute="leading" id="sZ8-Lc-iHL"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.3796690579" green="0.2687558585" blue="0.1492202624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="kr4-XJ-z6l" firstAttribute="trailing" secondItem="lHl-fo-LCh" secondAttribute="trailing" constant="25" id="41g-Bq-EbH"/>
-                            <constraint firstItem="lHl-fo-LCh" firstAttribute="height" secondItem="kr4-XJ-z6l" secondAttribute="height" multiplier="0.3" id="7F1-gI-cLe"/>
-                            <constraint firstItem="v24-EF-7Md" firstAttribute="leading" secondItem="kr4-XJ-z6l" secondAttribute="leading" constant="25" id="EOO-29-vyQ"/>
-                            <constraint firstItem="lHl-fo-LCh" firstAttribute="leading" secondItem="kr4-XJ-z6l" secondAttribute="leading" constant="25" id="GsH-3h-8Zq"/>
-                            <constraint firstItem="v24-EF-7Md" firstAttribute="top" secondItem="kr4-XJ-z6l" secondAttribute="top" constant="35" id="QVK-dj-fPj"/>
-                            <constraint firstItem="Dxx-4N-p5j" firstAttribute="leading" secondItem="kr4-XJ-z6l" secondAttribute="leading" id="Sgf-4b-p8e"/>
-                            <constraint firstItem="Dxx-4N-p5j" firstAttribute="top" secondItem="kr4-XJ-z6l" secondAttribute="top" id="Txf-fj-R4R"/>
-                            <constraint firstItem="kr4-XJ-z6l" firstAttribute="bottom" secondItem="lHl-fo-LCh" secondAttribute="bottom" constant="25" id="oJ3-Cz-3za"/>
-                            <constraint firstItem="Dxx-4N-p5j" firstAttribute="height" secondItem="kr4-XJ-z6l" secondAttribute="height" id="x8I-Mv-K8S"/>
-                            <constraint firstItem="kr4-XJ-z6l" firstAttribute="trailing" secondItem="v24-EF-7Md" secondAttribute="trailing" constant="25" id="xzh-X9-GZI"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="kr4-XJ-z6l"/>
-                    </view>
-                    <connections>
-                        <outlet property="CurrentTidd" destination="X2m-VI-Yuu" id="y3n-Uu-r75"/>
-                        <outlet property="MaxTid" destination="X0T-sg-W6R" id="mFt-ld-We4"/>
-                        <outlet property="PlayStopButton" destination="bi1-ug-aqN" id="ufG-1D-PNN"/>
-                        <outlet property="SliderVilaMotTrad" destination="2BR-ST-cW7" id="gVO-5P-Z1r"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="duv-Ue-7bl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3735" y="710.91549295774644"/>
-        </scene>
         <!--Vilostund i det fria-->
         <scene sceneID="GjX-7Q-ox2">
             <objects>
@@ -1897,30 +1388,37 @@ zsfsdf</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vila i det fria" translatesAutoresizingMaskIntoConstraints="NO" id="niD-pC-pdf">
-                                <rect key="frame" x="0.0" y="381" width="320" height="187"/>
+                                <rect key="frame" x="0.0" y="381" width="320" height="187.00000000000011"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="niD-pC-pdf" secondAttribute="height" multiplier="671:392" id="JD9-Rr-1nJ"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xHO-Dh-Nzl" userLabel="text">
-                                <rect key="frame" x="25" y="99" width="270" height="187.5"/>
+                                <rect key="frame" x="25" y="99" width="270" height="158"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vilostund i det fria" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEU-Vk-zky" userLabel="Låt naturen ta hand om stressen">
-                                        <rect key="frame" x="51.5" y="0.0" width="167" height="79.5"/>
+                                        <rect key="frame" x="4" y="0.0" width="262" height="43.5"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="34"/>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 minuter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmy-58-mpf">
-                                        <rect key="frame" x="93" y="99.5" width="84.5" height="23.5"/>
+                                        <rect key="frame" x="96" y="63.5" width="78" height="25.5"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sitt eller ligg på en naturnära plats." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRz-BR-2xI">
-                                        <rect key="frame" x="25" y="143" width="220" height="44.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRz-BR-2xI">
+                                        <rect key="frame" x="25" y="109" width="220" height="49"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Sitt eller ligg på en naturnära plats.">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1933,7 +1431,7 @@ zsfsdf</string>
                                 <rect key="frame" x="45" y="319" width="230" height="151"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgY-IB-wur">
-                                        <rect key="frame" x="97.5" y="0.0" width="35" height="35"/>
+                                        <rect key="frame" x="68.5" y="0.0" width="93" height="93.5"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.90000000000000002" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="vgY-IB-wur" secondAttribute="height" multiplier="80:80" id="uy7-6y-m43"/>
@@ -1946,7 +1444,7 @@ zsfsdf</string>
                                         </connections>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="63V-f6-KcL">
-                                        <rect key="frame" x="-2" y="45" width="234" height="48.5"/>
+                                        <rect key="frame" x="-2" y="103.5" width="234" height="24"/>
                                         <color key="tintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="thumbTintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
@@ -1954,16 +1452,16 @@ zsfsdf</string>
                                         </connections>
                                     </slider>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-eI-7vL">
-                                        <rect key="frame" x="0.0" y="102.5" width="230" height="48.5"/>
+                                        <rect key="frame" x="0.0" y="136.5" width="230" height="14.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY5-iQ-4up" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="39" height="48.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="06:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfO-Yd-brh" userLabel="0:00">
-                                                <rect key="frame" x="39" y="0.0" width="191" height="48.5"/>
+                                                <rect key="frame" x="35" y="0.0" width="195" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -2009,143 +1507,6 @@ zsfsdf</string>
             </objects>
             <point key="canvasLocation" x="812" y="697"/>
         </scene>
-        <!--EnKortPromenad-->
-        <scene sceneID="bd0-5p-xj5">
-            <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="BGi-iR-v9S" userLabel="EnKortPromenad" customClass="ViewController_VilaIdetFria" customModule="fontTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oHL-3l-ypo">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="gren_anna" translatesAutoresizingMaskIntoConstraints="NO" id="XfI-KX-kfV">
-                                <rect key="frame" x="-351" y="5" width="671" height="187"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="XfI-KX-kfV" secondAttribute="height" multiplier="671:392" id="kj5-1d-b2e"/>
-                                </constraints>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7bA-bE-Ix2" userLabel="text">
-                                <rect key="frame" x="25" y="165" width="270" height="187.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vilostund i det fria" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj0-1W-aRt" userLabel="Låt naturen ta hand om stressen">
-                                        <rect key="frame" x="51.5" y="0.0" width="167" height="79.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="34"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4g-cW-BNN">
-                                        <rect key="frame" x="110.5" y="99.5" width="49.5" height="23.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sitt eller ligg på en naturnära plats." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfd-AY-nFY">
-                                        <rect key="frame" x="25" y="143" width="220" height="44.5"/>
-                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="19"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="qfd-AY-nFY" secondAttribute="trailing" constant="25" id="1Ch-KM-Kdd"/>
-                                    <constraint firstItem="qfd-AY-nFY" firstAttribute="leading" secondItem="7bA-bE-Ix2" secondAttribute="leading" constant="25" id="8QS-s3-EI7"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wvo-6H-Lt6" userLabel="buttons">
-                                <rect key="frame" x="25" y="378.5" width="270" height="164.5"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJz-fg-l23">
-                                        <rect key="frame" x="122" y="0.0" width="26.5" height="26.5"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.90000000000000002" height="1"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="cJz-fg-l23" secondAttribute="height" multiplier="80:80" id="WGU-ui-7lW"/>
-                                        </constraints>
-                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
-                                        <state key="normal" image="play"/>
-                                        <state key="highlighted" image="lov_top"/>
-                                        <connections>
-                                            <action selector="PlayKannEttTrad:" destination="BGi-iR-v9S" eventType="touchUpInside" id="ScM-xe-AkD"/>
-                                        </connections>
-                                    </button>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hVB-Jx-Dg3">
-                                        <rect key="frame" x="-2" y="36.5" width="274" height="37"/>
-                                        <color key="tintColor" red="0.1112625122" green="0.79674054409999995" blue="0.811944797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="thumbTintColor" red="0.6588235294" green="0.87058823529999996" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <connections>
-                                            <action selector="ChangeAudioTime:" destination="BGi-iR-v9S" eventType="valueChanged" id="VR3-26-Gae"/>
-                                        </connections>
-                                    </slider>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YQa-YG-TER">
-                                        <rect key="frame" x="0.0" y="82.5" width="270" height="28.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jb0-1K-Pg8" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="39" height="28.5"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="06:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGN-we-a5h" userLabel="0:00">
-                                                <rect key="frame" x="39" y="0.0" width="231" height="28.5"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nPN-KI-PqG">
-                                        <rect key="frame" x="0.0" y="121" width="270" height="43.5"/>
-                                        <subviews>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q3R-ZG-WX7">
-                                                <rect key="frame" x="0.0" y="0.0" width="272" height="43.5"/>
-                                                <connections>
-                                                    <action selector="switchAction:" destination="BGi-iR-v9S" eventType="valueChanged" id="sBH-3Y-nEO"/>
-                                                </connections>
-                                            </switch>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="Q3R-ZG-WX7" secondAttribute="bottom" id="DKm-X9-WsW"/>
-                                            <constraint firstAttribute="trailing" secondItem="Q3R-ZG-WX7" secondAttribute="trailing" id="aMg-SD-T36"/>
-                                        </constraints>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="hVB-Jx-Dg3" firstAttribute="leading" secondItem="YQa-YG-TER" secondAttribute="leading" id="1Sm-EJ-WH2"/>
-                                    <constraint firstItem="nPN-KI-PqG" firstAttribute="leading" secondItem="wvo-6H-Lt6" secondAttribute="leading" id="1Uf-sK-XNP"/>
-                                    <constraint firstAttribute="trailing" secondItem="nPN-KI-PqG" secondAttribute="trailing" id="95g-tk-SK8"/>
-                                    <constraint firstItem="YQa-YG-TER" firstAttribute="leading" secondItem="wvo-6H-Lt6" secondAttribute="leading" id="EAp-Tf-I5K"/>
-                                    <constraint firstItem="cJz-fg-l23" firstAttribute="top" secondItem="wvo-6H-Lt6" secondAttribute="top" id="Uvi-8h-G5I"/>
-                                    <constraint firstItem="YQa-YG-TER" firstAttribute="trailing" secondItem="hVB-Jx-Dg3" secondAttribute="trailing" id="XhU-oy-p97"/>
-                                    <constraint firstAttribute="bottom" secondItem="nPN-KI-PqG" secondAttribute="bottom" id="cqz-1S-8SV"/>
-                                    <constraint firstAttribute="trailing" secondItem="YQa-YG-TER" secondAttribute="trailing" id="ryE-iG-PYX"/>
-                                    <constraint firstAttribute="bottom" secondItem="YQa-YG-TER" secondAttribute="bottom" id="ytk-LY-QRX"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.3796690579" green="0.2687558585" blue="0.1492202624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="pZM-ie-nxD" firstAttribute="trailing" secondItem="7bA-bE-Ix2" secondAttribute="trailing" constant="25" id="9kh-uc-IUb"/>
-                            <constraint firstItem="pZM-ie-nxD" firstAttribute="bottom" secondItem="wvo-6H-Lt6" secondAttribute="bottom" constant="25" id="Kz8-YE-cF1"/>
-                            <constraint firstItem="XfI-KX-kfV" firstAttribute="top" secondItem="pZM-ie-nxD" secondAttribute="top" constant="-15" id="Rje-QB-yM3"/>
-                            <constraint firstItem="XfI-KX-kfV" firstAttribute="width" secondItem="oHL-3l-ypo" secondAttribute="width" id="W8f-xO-sky"/>
-                            <constraint firstItem="wvo-6H-Lt6" firstAttribute="height" secondItem="pZM-ie-nxD" secondAttribute="height" multiplier="0.3" id="WU9-mg-FHw"/>
-                            <constraint firstItem="7bA-bE-Ix2" firstAttribute="top" secondItem="pZM-ie-nxD" secondAttribute="top" constant="145" id="fqf-gL-uJY"/>
-                            <constraint firstItem="pZM-ie-nxD" firstAttribute="trailing" secondItem="wvo-6H-Lt6" secondAttribute="trailing" constant="25" id="rvI-bO-rdD"/>
-                            <constraint firstItem="7bA-bE-Ix2" firstAttribute="leading" secondItem="pZM-ie-nxD" secondAttribute="leading" constant="25" id="tr1-pK-WM5"/>
-                            <constraint firstItem="wvo-6H-Lt6" firstAttribute="leading" secondItem="pZM-ie-nxD" secondAttribute="leading" constant="25" id="yoS-5L-Oil"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="pZM-ie-nxD"/>
-                    </view>
-                    <connections>
-                        <outlet property="CurrentTidd" destination="jb0-1K-Pg8" id="XNv-rn-106"/>
-                        <outlet property="MaxTid" destination="xGN-we-a5h" id="sxj-Wi-oKf"/>
-                        <outlet property="PlayStopButton" destination="cJz-fg-l23" id="HDU-2P-7Bv"/>
-                        <outlet property="SliderVilaMotTrad" destination="hVB-Jx-Dg3" id="M89-8T-vYz"/>
-                        <outlet property="action" destination="Q3R-ZG-WX7" id="fyj-3y-w7E"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9qD-VN-o5A" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="774" y="1492"/>
-        </scene>
     </scenes>
     <resources>
         <image name="En_kort_promenad_med_oppna_sinnen" width="671" height="326"/>
@@ -2155,13 +1516,9 @@ zsfsdf</string>
         <image name="Mats-tall2" width="671" height="1200"/>
         <image name="Vila mot ett trad_blad nere" width="671" height="340"/>
         <image name="book25_25" width="25" height="25"/>
-        <image name="faglar" width="671" height="118"/>
-        <image name="gren_anna" width="671" height="392"/>
         <image name="kann_ett_trad" width="671" height="1200"/>
-        <image name="kotte" width="154" height="1200"/>
         <image name="lov1x" width="25" height="25"/>
         <image name="lov_top" width="243" height="122"/>
-        <image name="mats_skog" width="671" height="349"/>
         <image name="meditationer_Nertill" width="671" height="245"/>
         <image name="meditationer_upptill" width="671" height="297"/>
         <image name="more_info" width="25" height="25"/>
