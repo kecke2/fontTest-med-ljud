@@ -106,16 +106,16 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mer info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaZ-gP-kCF" userLabel="Kom igång">
-                                <rect key="frame" x="30" y="55" width="260" height="38.5"/>
+                                <rect key="frame" x="30" y="55" width="260" height="35"/>
                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="30"/>
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="758" verticalCompressionResistancePriority="756" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nxs-0W-YQc">
-                                <rect key="frame" x="30" y="123.5" width="260" height="83"/>
+                                <rect key="frame" x="30" y="120" width="260" height="79"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eA4-Yu-TF2" userLabel="Support">
-                                        <rect key="frame" x="0.0" y="0.0" width="71" height="39"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="37"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
                                         <state key="normal" title="Support">
                                             <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -125,7 +125,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jpO-1g-wdP">
-                                        <rect key="frame" x="0.0" y="44" width="121" height="39"/>
+                                        <rect key="frame" x="0.0" y="42" width="131" height="37"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
                                         <state key="normal" title="Privacy policy">
                                             <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -137,7 +137,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ormbunke" translatesAutoresizingMaskIntoConstraints="NO" id="ZSh-N8-hsz">
-                                <rect key="frame" x="0.0" y="332" width="320" height="187.00000000000011"/>
+                                <rect key="frame" x="0.0" y="332" width="320" height="187"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ZSh-N8-hsz" secondAttribute="height" multiplier="671:392" id="2WR-AP-8K5"/>
                                 </constraints>
@@ -426,185 +426,6 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
             </objects>
             <point key="canvasLocation" x="30" y="-113.02816901408451"/>
         </scene>
-        <!--startsida-->
-        <scene sceneID="dpi-WZ-qMs">
-            <objects>
-                <viewController id="Sws-Ys-JzM" userLabel="startsida" customClass="ViewController" customModule="fontTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="T4B-a0-Eey">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view alpha="0.69999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6a0-mm-wdX">
-                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meditationer_upptill" translatesAutoresizingMaskIntoConstraints="NO" id="UGG-P6-5qY">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="141.5"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="UGG-P6-5qY" secondAttribute="height" multiplier="375:166" id="kka-Vd-HtZ"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meditationer_Nertill" translatesAutoresizingMaskIntoConstraints="NO" id="lZ2-mG-nHR">
-                                        <rect key="frame" x="0.0" y="382" width="320" height="117"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="lZ2-mG-nHR" secondAttribute="height" multiplier="375:137" id="ord-KF-u07"/>
-                                        </constraints>
-                                    </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="758" verticalCompressionResistancePriority="756" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="K6W-ZV-3e9">
-                                        <rect key="frame" x="50" y="70" width="230" height="332"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naturmeditation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="T6s-E4-nHm">
-                                                <rect key="frame" x="0.0" y="0.0" width="230" height="34"/>
-                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="45"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s1D-Kp-1u0">
-                                                <rect key="frame" x="0.0" y="34" width="230" height="29.5"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="78e-dg-Kgg" userLabel="KLåt naturen  stressen - 14 min">
-                                                <rect key="frame" x="0.0" y="63.5" width="230" height="21.5"/>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Låt naturen ta hand om stressen - 10 min">
-                                                            <attributes>
-                                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                            </button>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCs-pq-ZlN">
-                                                <rect key="frame" x="0.0" y="85" width="230" height="29"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="osk-aX-TYV">
-                                                <rect key="frame" x="0.0" y="114" width="212" height="20.5"/>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Känn ett träd - 10 min ">
-                                                            <attributes>
-                                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.90000000000000002" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                            </button>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Us4-Rr-On5">
-                                                <rect key="frame" x="0.0" y="134.5" width="230" height="29"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pir-4M-NSA" userLabel="Gå med öppna sinnen  - 10 min &gt;">
-                                                <rect key="frame" x="0.0" y="163.5" width="230" height="34"/>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Gå med öppna sinnen - 10 min  ">
-                                                            <attributes>
-                                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.90000000000000002" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                            </button>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DIq-fr-6tg">
-                                                <rect key="frame" x="0.0" y="197.5" width="230" height="29.5"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0x8-5D-JTM">
-                                                <rect key="frame" x="0.0" y="227" width="230" height="34"/>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Vila mot ett träd - 12 min ">
-                                                            <attributes>
-                                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.90000000000000002" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                            </button>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSU-V3-GHX">
-                                                <rect key="frame" x="0.0" y="261" width="230" height="3"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z0n-6q-R8u">
-                                                <rect key="frame" x="0.0" y="264" width="230" height="34"/>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="En kort promenad - 5 min">
-                                                            <attributes>
-                                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.90000000000000002" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                            </button>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTc-PS-dGR">
-                                                <rect key="frame" x="0.0" y="298" width="230" height="0.0"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7zc-Gr-oot">
-                                                <rect key="frame" x="0.0" y="298" width="230" height="34"/>
-                                                <state key="normal">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Vilostund i det fria- 6 min">
-                                                            <attributes>
-                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                                <font key="NSFont" metaFont="system" size="21"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.90000000000000002" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="lZ2-mG-nHR" firstAttribute="leading" secondItem="6a0-mm-wdX" secondAttribute="leading" id="8SS-hA-zcq"/>
-                                    <constraint firstItem="K6W-ZV-3e9" firstAttribute="leading" secondItem="6a0-mm-wdX" secondAttribute="leading" constant="50" id="95e-Lw-Nhf"/>
-                                    <constraint firstItem="K6W-ZV-3e9" firstAttribute="top" secondItem="6a0-mm-wdX" secondAttribute="top" constant="70" id="ADh-cF-Fxe"/>
-                                    <constraint firstItem="lZ2-mG-nHR" firstAttribute="top" secondItem="K6W-ZV-3e9" secondAttribute="bottom" constant="-20" id="BjE-XL-XIl"/>
-                                    <constraint firstItem="lZ2-mG-nHR" firstAttribute="width" secondItem="6a0-mm-wdX" secondAttribute="width" id="BxS-uV-sLh"/>
-                                    <constraint firstAttribute="trailing" secondItem="lZ2-mG-nHR" secondAttribute="trailing" id="FEi-h0-QZ8"/>
-                                    <constraint firstAttribute="trailing" secondItem="UGG-P6-5qY" secondAttribute="trailing" id="cGv-H4-4VU"/>
-                                    <constraint firstAttribute="trailing" secondItem="K6W-ZV-3e9" secondAttribute="trailing" constant="40" id="cgk-Bl-v0z"/>
-                                    <constraint firstItem="UGG-P6-5qY" firstAttribute="width" secondItem="6a0-mm-wdX" secondAttribute="width" id="jgY-bS-Y0W"/>
-                                    <constraint firstAttribute="bottom" secondItem="lZ2-mG-nHR" secondAttribute="bottom" id="lsg-9f-7rQ"/>
-                                    <constraint firstItem="UGG-P6-5qY" firstAttribute="top" secondItem="6a0-mm-wdX" secondAttribute="top" id="qaf-cm-86g"/>
-                                    <constraint firstItem="UGG-P6-5qY" firstAttribute="leading" secondItem="6a0-mm-wdX" secondAttribute="leading" id="wk2-KA-hJK"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.1112625122" green="0.79674054409999995" blue="0.811944797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="6a0-mm-wdX" firstAttribute="trailing" secondItem="H2i-u8-arU" secondAttribute="trailing" id="EXD-UF-gQz"/>
-                            <constraint firstItem="6a0-mm-wdX" firstAttribute="top" secondItem="H2i-u8-arU" secondAttribute="top" id="HOW-pf-bVz"/>
-                            <constraint firstItem="6a0-mm-wdX" firstAttribute="leading" secondItem="H2i-u8-arU" secondAttribute="leading" id="O39-cT-RXc"/>
-                            <constraint firstItem="6a0-mm-wdX" firstAttribute="bottom" secondItem="H2i-u8-arU" secondAttribute="bottom" id="mC2-NF-G6g"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="H2i-u8-arU"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Meditationer" id="CY1-jT-G14">
-                        <barButtonItem key="backBarButtonItem" title="Tillbaka" id="7kM-ko-j3O"/>
-                    </navigationItem>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bZ2-JI-Z9x" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-159" y="1088"/>
-        </scene>
         <!--Gå  med öppna sinnen-->
         <scene sceneID="pHb-Xt-db7">
             <objects>
@@ -742,7 +563,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FjU-dR-Otq" userLabel="text">
-                                <rect key="frame" x="25" y="94" width="270" height="208"/>
+                                <rect key="frame" x="25" y="94" width="270" height="214.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Låt naturen ta hand om stressen" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYg-dA-Jo1" userLabel="Låt naturen ta hand om stressen">
                                         <rect key="frame" x="0.0" y="0.0" width="270" height="86.5"/>
@@ -760,12 +581,13 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hak-eu-aej">
-                                        <rect key="frame" x="0.0" y="132" width="270" height="75.5"/>
+                                        <rect key="frame" x="0.0" y="132" width="270" height="82.5"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Stå eller sitt på en naturnära plats, gärna en som du kan återvända till regelbundet.">
                                                 <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                     <font key="NSFont" size="18" name=".SFNSText"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.3" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -801,13 +623,13 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         <rect key="frame" x="0.0" y="136.5" width="230" height="14.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnJ-G7-Z5U" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="14.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="10:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fz0-QM-Z9Z" userLabel="0:00">
-                                                <rect key="frame" x="187.5" y="0.0" width="42.5" height="14.5"/>
+                                                <rect key="frame" x="35" y="0.0" width="195" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -866,7 +688,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="B0E-8H-zLa" userLabel="text">
-                                <rect key="frame" x="25" y="99" width="255" height="139.5"/>
+                                <rect key="frame" x="25" y="99" width="255" height="144"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Känn ett träd" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B47-03-JfH" userLabel="Låt naturen ta hand om stressen">
                                         <rect key="frame" x="34.5" y="0.0" width="186.5" height="43.5"/>
@@ -882,13 +704,13 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BH6-zL-29P">
-                                        <rect key="frame" x="26.5" y="89" width="202" height="50.5"/>
+                                        <rect key="frame" x="26.5" y="89" width="202" height="55"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Stå någon meter framför ett träd.">
                                                 <attributes>
                                                     <color key="NSColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="18" name=".SFNSText"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.3" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -985,7 +807,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LTm-6X-qNw" userLabel="text">
-                                <rect key="frame" x="25" y="99" width="245" height="170"/>
+                                <rect key="frame" x="25" y="99" width="245" height="188.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vila mot ett träd" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rt8-sS-oLF" userLabel="Låt naturen ta hand om stressen">
                                         <rect key="frame" x="7.5" y="0.0" width="230" height="43.5"/>
@@ -1000,13 +822,13 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdf-J4-SPZ">
-                                        <rect key="frame" x="20" y="109" width="205" height="61"/>
+                                        <rect key="frame" x="20" y="109" width="205" height="79.5"/>
                                         <attributedString key="attributedText">
                                             <fragment content=" Sitt med ryggen mot ett träd, gärna på ett sittunderlag.">
                                                 <attributes>
                                                     <color key="NSColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.3" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -1045,13 +867,13 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         <rect key="frame" x="0.0" y="136.5" width="200" height="14.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KpA-dO-ZBd" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="158" height="14.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="12:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ud-eb-ici" userLabel="0:00">
-                                                <rect key="frame" x="158" y="0.0" width="42" height="14.5"/>
+                                                <rect key="frame" x="35" y="0.0" width="165" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1193,13 +1015,13 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         <rect key="frame" x="0.0" y="136.5" width="230" height="14.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHh-AS-PkR" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="188" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="05:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwa-lK-noO" userLabel="0:00">
-                                                <rect key="frame" x="35" y="0.0" width="195" height="14.5"/>
+                                                <rect key="frame" x="188" y="0.0" width="42" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1289,7 +1111,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                                 <attributes>
                                                     <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                     <font key="NSFont" size="18" name=".AppleSystemUIFont"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.3" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -1388,34 +1210,34 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vila i det fria" translatesAutoresizingMaskIntoConstraints="NO" id="niD-pC-pdf">
-                                <rect key="frame" x="0.0" y="381" width="320" height="187.00000000000011"/>
+                                <rect key="frame" x="0.0" y="381" width="320" height="187"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="niD-pC-pdf" secondAttribute="height" multiplier="671:392" id="JD9-Rr-1nJ"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xHO-Dh-Nzl" userLabel="text">
-                                <rect key="frame" x="25" y="99" width="270" height="158"/>
+                                <rect key="frame" x="25" y="99" width="270" height="196"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vilostund i det fria" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEU-Vk-zky" userLabel="Låt naturen ta hand om stressen">
-                                        <rect key="frame" x="4" y="0.0" width="262" height="43.5"/>
+                                        <rect key="frame" x="51.5" y="0.0" width="167" height="79.5"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="34"/>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 minuter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmy-58-mpf">
-                                        <rect key="frame" x="96" y="63.5" width="78" height="25.5"/>
+                                        <rect key="frame" x="93" y="99.5" width="84.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRz-BR-2xI">
-                                        <rect key="frame" x="25" y="109" width="220" height="49"/>
+                                        <rect key="frame" x="25" y="143" width="220" height="53"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Sitt eller ligg på en naturnära plats.">
                                                 <attributes>
                                                     <color key="NSColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.3" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -1431,7 +1253,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                 <rect key="frame" x="45" y="319" width="230" height="151"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgY-IB-wur">
-                                        <rect key="frame" x="68.5" y="0.0" width="93" height="93.5"/>
+                                        <rect key="frame" x="97.5" y="0.0" width="35" height="35"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.90000000000000002" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="vgY-IB-wur" secondAttribute="height" multiplier="80:80" id="uy7-6y-m43"/>
@@ -1444,7 +1266,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         </connections>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="63V-f6-KcL">
-                                        <rect key="frame" x="-2" y="103.5" width="234" height="24"/>
+                                        <rect key="frame" x="-2" y="45" width="234" height="48.5"/>
                                         <color key="tintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="thumbTintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
@@ -1452,16 +1274,16 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         </connections>
                                     </slider>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-eI-7vL">
-                                        <rect key="frame" x="0.0" y="136.5" width="230" height="14.5"/>
+                                        <rect key="frame" x="0.0" y="102.5" width="230" height="48.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY5-iQ-4up" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="179.5" height="48.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="06:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfO-Yd-brh" userLabel="0:00">
-                                                <rect key="frame" x="35" y="0.0" width="195" height="14.5"/>
+                                                <rect key="frame" x="179.5" y="0.0" width="50.5" height="48.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>

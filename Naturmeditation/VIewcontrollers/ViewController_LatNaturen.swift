@@ -4,7 +4,7 @@
 //
 //  Created by Kristin Vågberg on 2019-02-18.
 //  Copyright © 2018 Kristin Vågberg. All rights reserved.
-//
+//KRISTIN TESTAR GITHUB
 
 import UIKit
 import AVFoundation
