@@ -106,16 +106,16 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mer info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaZ-gP-kCF" userLabel="Kom igång">
-                                <rect key="frame" x="30" y="55" width="260" height="38.5"/>
+                                <rect key="frame" x="30" y="55" width="260" height="35"/>
                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="30"/>
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="758" verticalCompressionResistancePriority="756" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nxs-0W-YQc">
-                                <rect key="frame" x="30" y="123.5" width="260" height="83"/>
+                                <rect key="frame" x="30" y="120" width="260" height="79"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eA4-Yu-TF2" userLabel="Support">
-                                        <rect key="frame" x="0.0" y="0.0" width="71" height="39"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="37"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
                                         <state key="normal" title="Support">
                                             <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -125,7 +125,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jpO-1g-wdP">
-                                        <rect key="frame" x="0.0" y="44" width="121" height="39"/>
+                                        <rect key="frame" x="0.0" y="42" width="131" height="37"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
                                         <state key="normal" title="Privacy policy">
                                             <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -137,7 +137,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ormbunke" translatesAutoresizingMaskIntoConstraints="NO" id="ZSh-N8-hsz">
-                                <rect key="frame" x="0.0" y="332" width="320" height="187.00000000000011"/>
+                                <rect key="frame" x="0.0" y="332" width="320" height="187"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ZSh-N8-hsz" secondAttribute="height" multiplier="671:392" id="2WR-AP-8K5"/>
                                 </constraints>
@@ -1195,28 +1195,28 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vila i det fria" translatesAutoresizingMaskIntoConstraints="NO" id="niD-pC-pdf">
-                                <rect key="frame" x="0.0" y="381" width="320" height="187.00000000000011"/>
+                                <rect key="frame" x="0.0" y="381" width="320" height="187"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="niD-pC-pdf" secondAttribute="height" multiplier="671:392" id="JD9-Rr-1nJ"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xHO-Dh-Nzl" userLabel="text">
-                                <rect key="frame" x="25" y="99" width="270" height="162"/>
+                                <rect key="frame" x="25" y="99" width="270" height="196"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vilostund i det fria" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="31" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEU-Vk-zky" userLabel="Låt naturen ta hand om stressen">
-                                        <rect key="frame" x="4" y="0.0" width="262" height="43.5"/>
+                                        <rect key="frame" x="51.5" y="0.0" width="167" height="79.5"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="34"/>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 minuter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmy-58-mpf">
-                                        <rect key="frame" x="96" y="63.5" width="78" height="25.5"/>
+                                        <rect key="frame" x="93" y="99.5" width="84.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                         <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRz-BR-2xI">
-                                        <rect key="frame" x="25" y="109" width="220" height="53"/>
+                                        <rect key="frame" x="25" y="143" width="220" height="53"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Sitt eller ligg på en naturnära plats.">
                                                 <attributes>
@@ -1238,7 +1238,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                 <rect key="frame" x="45" y="319" width="230" height="151"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgY-IB-wur">
-                                        <rect key="frame" x="68.5" y="0.0" width="93" height="93.5"/>
+                                        <rect key="frame" x="97.5" y="0.0" width="35" height="35"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.90000000000000002" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="vgY-IB-wur" secondAttribute="height" multiplier="80:80" id="uy7-6y-m43"/>
@@ -1251,7 +1251,7 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         </connections>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="63V-f6-KcL">
-                                        <rect key="frame" x="-2" y="103.5" width="234" height="24"/>
+                                        <rect key="frame" x="-2" y="45" width="234" height="48.5"/>
                                         <color key="tintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="thumbTintColor" red="0.54901960780000003" green="0.79607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
@@ -1259,16 +1259,16 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         </connections>
                                     </slider>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-eI-7vL">
-                                        <rect key="frame" x="0.0" y="136.5" width="230" height="14.5"/>
+                                        <rect key="frame" x="0.0" y="102.5" width="230" height="48.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY5-iQ-4up" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="179.5" height="48.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="06:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfO-Yd-brh" userLabel="0:00">
-                                                <rect key="frame" x="35" y="0.0" width="195" height="14.5"/>
+                                                <rect key="frame" x="179.5" y="0.0" width="50.5" height="48.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
