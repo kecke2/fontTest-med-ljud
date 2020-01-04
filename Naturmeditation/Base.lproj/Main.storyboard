@@ -256,125 +256,110 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3co-sz-ZNy">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="758" verticalCompressionResistancePriority="756" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="gLE-hC-4v2">
-                                                        <rect key="frame" x="40" y="70" width="250" height="455"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naturmeditation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="35" translatesAutoresizingMaskIntoConstraints="NO" id="4mt-Qn-tau">
-                                                                <rect key="frame" x="0.0" y="0.0" width="250" height="34.5"/>
-                                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="40"/>
-                                                                <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrw-u1-2F9">
-                                                                <rect key="frame" x="0.0" y="34.5" width="230" height="33.5"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </view>
-                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Sha-e5-BBk" userLabel="Intro">
-                                                                <rect key="frame" x="0.0" y="68" width="163" height="26.5"/>
-                                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
-                                                                <state key="normal" title="Kom igång - 4 min">
-                                                                    <color key="titleColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <connections>
-                                                                    <segue destination="cVi-IG-POR" kind="show" id="eUo-7M-WP6"/>
-                                                                </connections>
-                                                            </button>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LdK-xI-1jQ">
-                                                                <rect key="frame" x="0.0" y="94.5" width="230" height="34"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </view>
-                                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="rbm-XB-hL0">
-                                                                <rect key="frame" x="0.0" y="128.5" width="223" height="39"/>
-                                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
-                                                                <state key="normal" title="Vilostund i det fria- 6 min">
-                                                                    <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <connections>
-                                                                    <segue destination="hFa-CN-5eo" kind="show" id="zuX-UO-j3F"/>
-                                                                </connections>
-                                                            </button>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KU1-pk-5Et">
-                                                                <rect key="frame" x="0.0" y="167.5" width="230" height="33.5"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </view>
-                                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="KMi-Xv-4GG">
-                                                                <rect key="frame" x="0.0" y="201" width="250" height="39"/>
-                                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
-                                                                <state key="normal" title="En kort promenad med öppna sinnen- 5 min">
-                                                                    <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <connections>
-                                                                    <segue destination="0Jl-hx-gip" kind="show" id="HQg-uk-7ZN"/>
-                                                                </connections>
-                                                            </button>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tpg-Qc-HkQ">
-                                                                <rect key="frame" x="0.0" y="240" width="230" height="34"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </view>
-                                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8kQ-Pp-EIo" userLabel="Gå med öppna sinnen  - 10 min &gt;">
-                                                                <rect key="frame" x="0.0" y="274" width="250" height="39"/>
-                                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
-                                                                <state key="normal" title="Gå med öppna sinnen - 18 min  ">
-                                                                    <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <connections>
-                                                                    <segue destination="eZl-92-1QI" kind="show" id="6KC-fa-og3"/>
-                                                                </connections>
-                                                            </button>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5a-DY-n54">
-                                                                <rect key="frame" x="0.0" y="313" width="230" height="33.5"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </view>
-                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TsR-JN-T3u" userLabel="KLåt naturen  stressen - 14 min">
-                                                                <rect key="frame" x="0.0" y="346.5" width="250" height="26.5"/>
-                                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
-                                                                <state key="normal" title="Låt naturen ta hand om stressen - 10 min">
-                                                                    <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <connections>
-                                                                    <segue destination="4K5-md-h3w" kind="show" id="fFj-yQ-ad4"/>
-                                                                </connections>
-                                                            </button>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RGW-HS-PTy">
-                                                                <rect key="frame" x="0.0" y="373" width="230" height="33.5"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </view>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4XV-UC-h4c">
-                                                                <rect key="frame" x="0.0" y="406.5" width="195" height="9.5"/>
-                                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
-                                                                <state key="normal" title="Känn ett träd - 10 min ">
-                                                                    <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <connections>
-                                                                    <segue destination="vwh-Lp-jfs" kind="show" id="G92-Yo-KLm"/>
-                                                                </connections>
-                                                            </button>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gc-eN-rFX">
-                                                                <rect key="frame" x="0.0" y="416" width="230" height="0.0"/>
-                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            </view>
-                                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tOJ-Ym-YVM">
-                                                                <rect key="frame" x="0.0" y="416" width="221" height="39"/>
-                                                                <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
-                                                                <state key="normal" title="Vila mot ett träd - 12 min ">
-                                                                    <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </state>
-                                                                <connections>
-                                                                    <segue destination="d2w-Yi-BAr" kind="show" id="gTL-Hm-xCY"/>
-                                                                </connections>
-                                                            </button>
-                                                        </subviews>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="455" id="oT3-1w-ScH"/>
-                                                        </constraints>
-                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naturmeditation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="35" translatesAutoresizingMaskIntoConstraints="NO" id="4mt-Qn-tau">
+                                                        <rect key="frame" x="40" y="80" width="250" height="51"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="40"/>
+                                                        <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Sha-e5-BBk" userLabel="Intro">
+                                                        <rect key="frame" x="42" y="146" width="248" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Kom igång - 4 min">
+                                                            <color key="titleColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="cVi-IG-POR" kind="show" id="eUo-7M-WP6"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="rbm-XB-hL0">
+                                                        <rect key="frame" x="42" y="195" width="248" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Vilostund i det fria- 6 min">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="hFa-CN-5eo" kind="show" id="zuX-UO-j3F"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8kQ-Pp-EIo" userLabel="Gå med öppna sinnen  - 10 min &gt;">
+                                                        <rect key="frame" x="42" y="244" width="248" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Gå med öppna sinnen - 18 min  ">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="eZl-92-1QI" kind="show" id="6KC-fa-og3"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="KMi-Xv-4GG">
+                                                        <rect key="frame" x="42" y="303" width="248" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="En kort promenad med öppna sinnen- 5 min">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="0Jl-hx-gip" kind="show" id="HQg-uk-7ZN"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TsR-JN-T3u" userLabel="KLåt naturen  stressen - 14 min">
+                                                        <rect key="frame" x="42" y="372" width="248" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Låt naturen ta hand om stressen - 10 min">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="4K5-md-h3w" kind="show" id="fFj-yQ-ad4"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4XV-UC-h4c">
+                                                        <rect key="frame" x="42" y="431" width="248" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Känn ett träd - 10 min ">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="vwh-Lp-jfs" kind="show" id="G92-Yo-KLm"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tOJ-Ym-YVM">
+                                                        <rect key="frame" x="42" y="485" width="248" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Vila mot ett träd - 12 min ">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="d2w-Yi-BAr" kind="show" id="gTL-Hm-xCY"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="gLE-hC-4v2" firstAttribute="top" secondItem="3co-sz-ZNy" secondAttribute="top" constant="70" id="3OL-qb-GCH"/>
-                                                    <constraint firstAttribute="trailing" secondItem="gLE-hC-4v2" secondAttribute="trailing" constant="30" id="8nf-F7-w0G"/>
+                                                    <constraint firstItem="TsR-JN-T3u" firstAttribute="top" secondItem="KMi-Xv-4GG" secondAttribute="bottom" constant="30" id="7v4-1b-M2Z"/>
+                                                    <constraint firstItem="rbm-XB-hL0" firstAttribute="leading" secondItem="3co-sz-ZNy" secondAttribute="leading" constant="42" id="91a-7v-D6h"/>
+                                                    <constraint firstItem="tOJ-Ym-YVM" firstAttribute="top" secondItem="4XV-UC-h4c" secondAttribute="bottom" constant="15" id="E18-Hb-zFJ"/>
+                                                    <constraint firstItem="tOJ-Ym-YVM" firstAttribute="leading" secondItem="3co-sz-ZNy" secondAttribute="leading" constant="42" id="J6i-Iu-aVL"/>
+                                                    <constraint firstItem="rbm-XB-hL0" firstAttribute="top" secondItem="Sha-e5-BBk" secondAttribute="bottom" constant="10" id="NGi-ck-usS"/>
                                                     <constraint firstAttribute="height" constant="600" id="SSr-7l-rGW"/>
-                                                    <constraint firstItem="gLE-hC-4v2" firstAttribute="leading" secondItem="3co-sz-ZNy" secondAttribute="leading" constant="40" id="tbv-Ne-6nb"/>
+                                                    <constraint firstAttribute="trailing" secondItem="tOJ-Ym-YVM" secondAttribute="trailing" constant="30" id="U31-Tg-TQH"/>
+                                                    <constraint firstAttribute="trailing" secondItem="8kQ-Pp-EIo" secondAttribute="trailing" constant="30" id="URn-hY-tGp"/>
+                                                    <constraint firstAttribute="trailing" secondItem="KMi-Xv-4GG" secondAttribute="trailing" constant="30" id="Uq1-Hq-7DZ"/>
+                                                    <constraint firstItem="4XV-UC-h4c" firstAttribute="top" secondItem="TsR-JN-T3u" secondAttribute="bottom" constant="20" id="XQK-yz-hpW"/>
+                                                    <constraint firstItem="Sha-e5-BBk" firstAttribute="top" secondItem="4mt-Qn-tau" secondAttribute="bottom" constant="15" id="XX0-SG-9ah"/>
+                                                    <constraint firstAttribute="trailing" secondItem="TsR-JN-T3u" secondAttribute="trailing" constant="30" id="aDB-nl-Hln"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4mt-Qn-tau" secondAttribute="trailing" constant="30" id="asX-xc-hW0"/>
+                                                    <constraint firstItem="KMi-Xv-4GG" firstAttribute="top" secondItem="8kQ-Pp-EIo" secondAttribute="bottom" constant="20" id="d1Q-R6-ph8"/>
+                                                    <constraint firstItem="8kQ-Pp-EIo" firstAttribute="leading" secondItem="3co-sz-ZNy" secondAttribute="leading" constant="42" id="hNd-pr-NLE"/>
+                                                    <constraint firstItem="KMi-Xv-4GG" firstAttribute="leading" secondItem="3co-sz-ZNy" secondAttribute="leading" constant="42" id="hWl-8Y-cbG"/>
+                                                    <constraint firstItem="4mt-Qn-tau" firstAttribute="top" secondItem="3co-sz-ZNy" secondAttribute="top" constant="80" id="hzm-1s-Gwj"/>
+                                                    <constraint firstItem="8kQ-Pp-EIo" firstAttribute="top" secondItem="rbm-XB-hL0" secondAttribute="bottom" constant="10" id="kWG-Yb-Tj3"/>
+                                                    <constraint firstItem="TsR-JN-T3u" firstAttribute="leading" secondItem="3co-sz-ZNy" secondAttribute="leading" constant="42" id="m1Z-aY-uhP"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Sha-e5-BBk" secondAttribute="trailing" constant="30" id="r7s-M4-qFr"/>
+                                                    <constraint firstItem="Sha-e5-BBk" firstAttribute="leading" secondItem="3co-sz-ZNy" secondAttribute="leading" constant="42" id="rhd-yQ-yPY"/>
+                                                    <constraint firstAttribute="trailing" secondItem="rbm-XB-hL0" secondAttribute="trailing" constant="30" id="twR-i6-Cjl"/>
+                                                    <constraint firstItem="4XV-UC-h4c" firstAttribute="leading" secondItem="3co-sz-ZNy" secondAttribute="leading" constant="42" id="voX-75-Acu"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4XV-UC-h4c" secondAttribute="trailing" constant="30" id="z1R-Zv-kf8"/>
+                                                    <constraint firstItem="4mt-Qn-tau" firstAttribute="leading" secondItem="3co-sz-ZNy" secondAttribute="leading" constant="40" id="zOg-aA-IMr"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -1277,13 +1262,13 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                                         <rect key="frame" x="0.0" y="136.5" width="230" height="14.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY5-iQ-4up" userLabel="0:00">
-                                                <rect key="frame" x="0.0" y="0.0" width="186.5" height="14.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="06:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfO-Yd-brh" userLabel="0:00">
-                                                <rect key="frame" x="186.5" y="0.0" width="43.5" height="14.5"/>
+                                                <rect key="frame" x="35" y="0.0" width="195" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="20"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1328,6 +1313,166 @@ Ha alltid varma och vädertåliga kläder på dig när du är ute och ta gärna 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YqM-dy-rzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="812" y="697"/>
+        </scene>
+        <!--startsida-->
+        <scene sceneID="8Cl-tq-tbo">
+            <objects>
+                <viewController id="Yli-uG-ij9" userLabel="startsida" customClass="ViewController" customModule="fontTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wRb-za-oiR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gYf-ia-GpZ">
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meditationer_upptill" translatesAutoresizingMaskIntoConstraints="NO" id="x93-PP-bMA">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="141.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="x93-PP-bMA" secondAttribute="height" multiplier="375:166" id="wXV-9z-sG5"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meditationer_Nertill" translatesAutoresizingMaskIntoConstraints="NO" id="Rgu-tl-XsK">
+                                        <rect key="frame" x="0.0" y="382" width="320" height="117"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Rgu-tl-XsK" secondAttribute="height" multiplier="375:137" id="VSZ-nC-Klc"/>
+                                        </constraints>
+                                    </imageView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0FO-8Q-TCt">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="499"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vu9-Zl-8hT">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naturmeditation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="35" translatesAutoresizingMaskIntoConstraints="NO" id="d52-nx-7nj">
+                                                        <rect key="frame" x="40" y="80" width="260" height="51"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="40"/>
+                                                        <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vj4-KX-Rbg" userLabel="Intro">
+                                                        <rect key="frame" x="40" y="146" width="250" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Kom igång - 4 min">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xuI-q5-eAK">
+                                                        <rect key="frame" x="40" y="195" width="250" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Vilostund i det fria- 6 min">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wcC-SQ-zrD" userLabel="Gå med öppna sinnen  - 10 min &gt;">
+                                                        <rect key="frame" x="40" y="244" width="250" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Gå med öppna sinnen - 18 min  ">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ldn-B0-Z8p">
+                                                        <rect key="frame" x="40" y="303" width="250" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="En kort promenad med öppna sinnen- 5 min">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qhb-vs-2vM" userLabel="KLåt naturen  stressen - 14 min">
+                                                        <rect key="frame" x="40" y="372" width="240" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Låt naturen ta hand om stressen - 10 min">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5PJ-xt-NU1">
+                                                        <rect key="frame" x="40" y="431" width="250" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Känn ett träd - 10 min ">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2EV-Wl-faS">
+                                                        <rect key="frame" x="40" y="485" width="240" height="39"/>
+                                                        <fontDescription key="fontDescription" name="IM_FELL_English_Roman" family="IM FELL English" pointSize="21"/>
+                                                        <state key="normal" title="Vila mot ett träd - 12 min ">
+                                                            <color key="titleColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="xuI-q5-eAK" secondAttribute="trailing" constant="30" id="8KZ-gY-iPM"/>
+                                                    <constraint firstItem="5PJ-xt-NU1" firstAttribute="top" secondItem="Qhb-vs-2vM" secondAttribute="bottom" constant="20" id="8Sl-ma-aSF"/>
+                                                    <constraint firstAttribute="trailing" secondItem="wcC-SQ-zrD" secondAttribute="trailing" constant="30" id="9ov-bc-izY"/>
+                                                    <constraint firstItem="xuI-q5-eAK" firstAttribute="top" secondItem="vj4-KX-Rbg" secondAttribute="bottom" constant="10" id="CZb-gv-y8K"/>
+                                                    <constraint firstItem="2EV-Wl-faS" firstAttribute="top" secondItem="5PJ-xt-NU1" secondAttribute="bottom" constant="15" id="Gbc-yL-mjd"/>
+                                                    <constraint firstItem="vj4-KX-Rbg" firstAttribute="top" secondItem="d52-nx-7nj" secondAttribute="bottom" constant="15" id="J8h-x0-OpN"/>
+                                                    <constraint firstItem="Qhb-vs-2vM" firstAttribute="top" secondItem="ldn-B0-Z8p" secondAttribute="bottom" constant="30" id="Jrx-Dd-EqD"/>
+                                                    <constraint firstAttribute="trailing" secondItem="5PJ-xt-NU1" secondAttribute="trailing" constant="30" id="Ksc-jz-Cof"/>
+                                                    <constraint firstItem="5PJ-xt-NU1" firstAttribute="leading" secondItem="vu9-Zl-8hT" secondAttribute="leading" constant="40" id="Ljn-sK-V3I"/>
+                                                    <constraint firstItem="d52-nx-7nj" firstAttribute="leading" secondItem="vu9-Zl-8hT" secondAttribute="leading" constant="40" id="Ndp-AA-mm5"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ldn-B0-Z8p" secondAttribute="trailing" constant="30" id="QxR-KW-brd"/>
+                                                    <constraint firstAttribute="trailing" secondItem="2EV-Wl-faS" secondAttribute="trailing" constant="40" id="R4w-K5-OTR"/>
+                                                    <constraint firstItem="wcC-SQ-zrD" firstAttribute="top" secondItem="xuI-q5-eAK" secondAttribute="bottom" constant="10" id="RAI-Ms-qYG"/>
+                                                    <constraint firstItem="ldn-B0-Z8p" firstAttribute="leading" secondItem="vu9-Zl-8hT" secondAttribute="leading" constant="40" id="Tla-mb-aMc"/>
+                                                    <constraint firstItem="Qhb-vs-2vM" firstAttribute="leading" secondItem="vu9-Zl-8hT" secondAttribute="leading" constant="40" id="Wsz-IS-QXr"/>
+                                                    <constraint firstItem="xuI-q5-eAK" firstAttribute="leading" secondItem="vu9-Zl-8hT" secondAttribute="leading" constant="40" id="XZA-xn-jnF"/>
+                                                    <constraint firstItem="2EV-Wl-faS" firstAttribute="leading" secondItem="vu9-Zl-8hT" secondAttribute="leading" constant="40" id="dBI-RH-dbS"/>
+                                                    <constraint firstAttribute="trailing" secondItem="vj4-KX-Rbg" secondAttribute="trailing" constant="30" id="ed2-8u-LgS"/>
+                                                    <constraint firstAttribute="trailing" secondItem="d52-nx-7nj" secondAttribute="trailing" constant="20" id="gZ7-JM-2Pv"/>
+                                                    <constraint firstAttribute="height" constant="600" id="iIM-C5-0Ez"/>
+                                                    <constraint firstItem="d52-nx-7nj" firstAttribute="top" secondItem="vu9-Zl-8hT" secondAttribute="top" constant="80" id="j2O-6J-HNj"/>
+                                                    <constraint firstItem="wcC-SQ-zrD" firstAttribute="leading" secondItem="vu9-Zl-8hT" secondAttribute="leading" constant="40" id="pba-o1-9nC"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Qhb-vs-2vM" secondAttribute="trailing" constant="40" id="s8C-qc-jKy"/>
+                                                    <constraint firstItem="ldn-B0-Z8p" firstAttribute="top" secondItem="wcC-SQ-zrD" secondAttribute="bottom" constant="20" id="x0K-dX-39N"/>
+                                                    <constraint firstItem="vj4-KX-Rbg" firstAttribute="leading" secondItem="vu9-Zl-8hT" secondAttribute="leading" constant="40" id="z9w-5A-Hha"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="vu9-Zl-8hT" firstAttribute="width" secondItem="0FO-8Q-TCt" secondAttribute="width" id="7B3-rc-vOH"/>
+                                            <constraint firstAttribute="trailing" secondItem="vu9-Zl-8hT" secondAttribute="trailing" id="GYp-ES-GxL"/>
+                                            <constraint firstItem="vu9-Zl-8hT" firstAttribute="leading" secondItem="0FO-8Q-TCt" secondAttribute="leading" id="PAV-JF-FWj"/>
+                                            <constraint firstAttribute="bottom" secondItem="vu9-Zl-8hT" secondAttribute="bottom" id="R4a-qq-BXi"/>
+                                            <constraint firstItem="vu9-Zl-8hT" firstAttribute="top" secondItem="0FO-8Q-TCt" secondAttribute="top" id="nCX-eZ-wZa"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="x93-PP-bMA" firstAttribute="leading" secondItem="gYf-ia-GpZ" secondAttribute="leading" id="05E-oF-MuW"/>
+                                    <constraint firstAttribute="trailing" secondItem="0FO-8Q-TCt" secondAttribute="trailing" id="05j-1c-vbD"/>
+                                    <constraint firstAttribute="trailing" secondItem="x93-PP-bMA" secondAttribute="trailing" id="5n0-2M-K3p"/>
+                                    <constraint firstItem="0FO-8Q-TCt" firstAttribute="top" secondItem="gYf-ia-GpZ" secondAttribute="top" id="ITh-3n-De2"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rgu-tl-XsK" secondAttribute="bottom" id="J43-hi-UtQ"/>
+                                    <constraint firstItem="x93-PP-bMA" firstAttribute="width" secondItem="gYf-ia-GpZ" secondAttribute="width" id="dgf-hu-9Ga"/>
+                                    <constraint firstItem="Rgu-tl-XsK" firstAttribute="leading" secondItem="gYf-ia-GpZ" secondAttribute="leading" id="k0b-4V-xUJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rgu-tl-XsK" secondAttribute="trailing" id="khr-UQ-XmI"/>
+                                    <constraint firstAttribute="bottom" secondItem="0FO-8Q-TCt" secondAttribute="bottom" id="pnN-Ys-08r"/>
+                                    <constraint firstItem="0FO-8Q-TCt" firstAttribute="leading" secondItem="gYf-ia-GpZ" secondAttribute="leading" id="ttz-9g-3pm"/>
+                                    <constraint firstItem="x93-PP-bMA" firstAttribute="top" secondItem="gYf-ia-GpZ" secondAttribute="top" id="w16-j6-xuD"/>
+                                    <constraint firstItem="Rgu-tl-XsK" firstAttribute="width" secondItem="gYf-ia-GpZ" secondAttribute="width" id="xSY-FZ-CJj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.1112625122" green="0.79674054409999995" blue="0.811944797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gYf-ia-GpZ" firstAttribute="bottom" secondItem="EUS-Tp-mLH" secondAttribute="bottom" id="06n-NX-css"/>
+                            <constraint firstItem="gYf-ia-GpZ" firstAttribute="leading" secondItem="EUS-Tp-mLH" secondAttribute="leading" id="JTa-Rb-8kU"/>
+                            <constraint firstItem="gYf-ia-GpZ" firstAttribute="trailing" secondItem="EUS-Tp-mLH" secondAttribute="trailing" id="VJX-ba-hPl"/>
+                            <constraint firstItem="gYf-ia-GpZ" firstAttribute="top" secondItem="EUS-Tp-mLH" secondAttribute="top" id="eah-Zo-WNf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EUS-Tp-mLH"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Meditationer" id="3k6-il-iKv">
+                        <barButtonItem key="backBarButtonItem" title="Tillbaka" id="M8K-hV-a5q"/>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAu-ng-ZF8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-165" y="896"/>
         </scene>
     </scenes>
     <resources>
