@@ -68,6 +68,7 @@ class ViewController_EnKortPromenad: UIViewController {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
+   
     }
     
     //NÄR VIEWN FÖRSVINNER IGEN - STOPPA LJUDET, SÅ DET INTE FORTSÄTTER ATT SPELAS!
